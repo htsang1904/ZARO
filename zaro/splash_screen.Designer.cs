@@ -1,6 +1,6 @@
 ﻿namespace zaro
 {
-    partial class Form1
+    partial class splash_screen
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // splash_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(241)))), ((int)(((byte)(234)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "splash_screen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "splash_screen";
             this.ResumeLayout(false);
 
         }
@@ -44,4 +47,3 @@
         #endregion
     }
 }
-
