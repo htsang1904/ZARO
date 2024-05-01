@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace zaro
 {
-    public partial class home : Form
+    public partial class login : Form
     {
-        public home()
+        public login()
         {
             InitializeComponent();
-        }
-
-        private void home_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

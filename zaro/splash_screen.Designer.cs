@@ -49,7 +49,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::zaro.Properties.Resources.loading;
-            this.pictureBox2.Location = new System.Drawing.Point(471, 414);
+            this.pictureBox2.Location = new System.Drawing.Point(367, 311);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(124, 112);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -59,7 +59,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::zaro.Properties.Resources.ZARO_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(351, 161);
+            this.pictureBox1.Location = new System.Drawing.Point(249, 53);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(371, 308);
@@ -72,7 +72,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(241)))), ((int)(((byte)(234)))));
-            this.ClientSize = new System.Drawing.Size(1067, 615);
+            this.ClientSize = new System.Drawing.Size(850, 475);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

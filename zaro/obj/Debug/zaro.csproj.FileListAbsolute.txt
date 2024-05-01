@@ -70,5 +70,5 @@ C:\GitHub\ZARO\zaro\obj\Debug\zaro.csproj.CoreCompileInputs.cache
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.csproj.Up2Date
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.exe
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.pdb
-C:\GitHub\ZARO\zaro\obj\Debug\zaro.home.resources
 C:\GitHub\ZARO\zaro\bin\Debug\Guna.UI2.dll
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.login.resources

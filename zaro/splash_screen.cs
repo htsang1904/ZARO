@@ -30,8 +30,8 @@ namespace zaro
         {
             timer1.Stop();
             this.Hide();
-            home home = new home();
-            home.Show();
+            login login = new login();
+            login.Show();
         }
     }
 }
