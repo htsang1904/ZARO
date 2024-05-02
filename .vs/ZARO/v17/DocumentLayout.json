@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\GitHub\\ZARO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\splash_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "splash_screen.cs",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs",
+              "RelativeDocumentMoniker": "zaro\\splash_screen.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs",
+              "RelativeToolTip": "zaro\\splash_screen.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:31:40.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "register.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\register.cs",
+              "RelativeDocumentMoniker": "zaro\\register.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\register.cs [Design]",
+              "RelativeToolTip": "zaro\\register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:31:03.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "splash_screen.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs",
+              "RelativeDocumentMoniker": "zaro\\splash_screen.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs [Design]",
+              "RelativeToolTip": "zaro\\splash_screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:05:38.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "login.cs [Design]",
               "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\login.cs",
               "RelativeDocumentMoniker": "zaro\\login.cs",
@@ -50,66 +86,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "login.Designer.cs",
               "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\login.Designer.cs",
               "RelativeDocumentMoniker": "zaro\\login.Designer.cs",
               "ToolTip": "C:\\GitHub\\ZARO\\zaro\\login.Designer.cs",
               "RelativeToolTip": "zaro\\login.Designer.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAwCwAAABVAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAawDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:11:16.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T02:11:16.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "splash_screen.cs [Design]",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs",
-              "RelativeDocumentMoniker": "zaro\\splash_screen.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs [Design]",
-              "RelativeToolTip": "zaro\\splash_screen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:10:27.018Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "splash_screen.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs",
-              "RelativeDocumentMoniker": "zaro\\splash_screen.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\splash_screen.cs",
-              "RelativeToolTip": "zaro\\splash_screen.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:09:25.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "login.cs",
               "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\login.cs",
               "RelativeDocumentMoniker": "zaro\\login.cs",
               "ToolTip": "C:\\GitHub\\ZARO\\zaro\\login.cs",
               "RelativeToolTip": "zaro\\login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T12:42:36.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Program.cs",
-              "RelativeDocumentMoniker": "zaro\\Program.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Program.cs",
-              "RelativeToolTip": "zaro\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:15:23.157Z",
               "EditorCaption": ""
             }
           ]

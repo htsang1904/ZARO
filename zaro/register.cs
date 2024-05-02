@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace zaro
 {
-    public partial class login : Form
+    public partial class register : Form
     {
-        public login()
+        public register()
         {
             InitializeComponent();
-        }
-
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

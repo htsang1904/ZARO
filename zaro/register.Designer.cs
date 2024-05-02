@@ -1,9 +1,6 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace zaro
+﻿namespace zaro
 {
-    partial class login
+    partial class register
     {
         /// <summary>
         /// Required designer variable.
@@ -31,126 +28,110 @@ namespace zaro
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialDivider2 = new MaterialSkin.Controls.MaterialDivider();
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2.SuspendLayout();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.guna2ImageButton1);
-            this.guna2Panel2.Controls.Add(this.label5);
-            this.guna2Panel2.Controls.Add(this.checkBox1);
-            this.guna2Panel2.Controls.Add(this.label4);
-            this.guna2Panel2.Controls.Add(this.label2);
-            this.guna2Panel2.Controls.Add(this.materialDivider2);
-            this.guna2Panel2.Controls.Add(this.materialDivider1);
-            this.guna2Panel2.Controls.Add(this.label3);
-            this.guna2Panel2.Controls.Add(this.guna2Button1);
-            this.guna2Panel2.Controls.Add(this.label1);
-            this.guna2Panel2.Controls.Add(this.guna2Panel3);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel2.Location = new System.Drawing.Point(475, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(375, 475);
-            this.guna2Panel2.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(81, 431);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 16);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "Chưa có tài khoản";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(41, 286);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(74, 20);
-            this.checkBox1.TabIndex = 35;
-            this.checkBox1.Text = "Ghi nhớ";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(228, 288);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 16);
-            this.label4.TabIndex = 34;
-            this.label4.Text = "Quên mật khẩu ?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(151)))));
-            this.label2.Location = new System.Drawing.Point(201, 428);
+            this.label2.Location = new System.Drawing.Point(438, 429);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 18);
-            this.label2.TabIndex = 32;
+            this.label2.TabIndex = 24;
             this.label2.Text = "Đăng ký";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.Location = new System.Drawing.Point(306, 430);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(130, 19);
+            this.materialLabel2.TabIndex = 23;
+            this.materialLabel2.Text = "Chưa có tài khoản";
             // 
             // materialDivider2
             // 
             this.materialDivider2.BackColor = System.Drawing.Color.Black;
             this.materialDivider2.Depth = 0;
             this.materialDivider2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.materialDivider2.Location = new System.Drawing.Point(223, 395);
+            this.materialDivider2.Location = new System.Drawing.Point(461, 395);
             this.materialDivider2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider2.Name = "materialDivider2";
             this.materialDivider2.Size = new System.Drawing.Size(124, 1);
-            this.materialDivider2.TabIndex = 30;
+            this.materialDivider2.TabIndex = 22;
             // 
             // materialDivider1
             // 
             this.materialDivider1.BackColor = System.Drawing.Color.Black;
             this.materialDivider1.Depth = 0;
             this.materialDivider1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.materialDivider1.Location = new System.Drawing.Point(28, 395);
+            this.materialDivider1.Location = new System.Drawing.Point(266, 395);
             this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider1.Name = "materialDivider1";
             this.materialDivider1.Size = new System.Drawing.Size(124, 1);
-            this.materialDivider1.TabIndex = 29;
+            this.materialDivider1.TabIndex = 21;
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(164, 386);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 16);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Hoặc";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(402, 386);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 16);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Hoặc";
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Location = new System.Drawing.Point(464, 295);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(121, 19);
+            this.materialLabel1.TabIndex = 19;
+            this.materialLabel1.Text = "Quên mật khẩu ?";
+            // 
+            // materialCheckbox1
+            // 
+            this.materialCheckbox1.Depth = 0;
+            this.materialCheckbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialCheckbox1.Location = new System.Drawing.Point(266, 287);
+            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox1.Name = "materialCheckbox1";
+            this.materialCheckbox1.ReadOnly = false;
+            this.materialCheckbox1.Ripple = true;
+            this.materialCheckbox1.Size = new System.Drawing.Size(161, 37);
+            this.materialCheckbox1.TabIndex = 18;
+            this.materialCheckbox1.Text = "Ghi nhớ mật khẩu";
+            this.materialCheckbox1.UseVisualStyleBackColor = true;
             // 
             // guna2Button1
             // 
             this.guna2Button1.BorderColor = System.Drawing.Color.Empty;
-            this.guna2Button1.BorderRadius = 6;
+            this.guna2Button1.BorderRadius = 10;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -158,37 +139,41 @@ namespace zaro
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(151)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(103, 327);
+            this.guna2Button1.Location = new System.Drawing.Point(341, 327);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 25;
+            this.guna2Button1.TabIndex = 17;
             this.guna2Button1.Text = "Đăng nhập";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(141, 96);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 22);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Đăng nhập";
             // 
             // guna2Panel3
             // 
+            this.guna2Panel3.Controls.Add(this.iconButton2);
             this.guna2Panel3.Controls.Add(this.guna2TextBox2);
             this.guna2Panel3.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 130);
+            this.guna2Panel3.Location = new System.Drawing.Point(238, 134);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(375, 150);
-            this.guna2Panel3.TabIndex = 17;
+            this.guna2Panel3.TabIndex = 16;
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Eye;
+            this.iconButton2.IconColor = System.Drawing.Color.Black;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton2.IconSize = 24;
+            this.iconButton2.Location = new System.Drawing.Point(299, 91);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(38, 36);
+            this.iconButton2.TabIndex = 2;
+            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButton2.UseVisualStyleBackColor = true;
             // 
             // guna2TextBox2
             // 
-            this.guna2TextBox2.BorderRadius = 6;
+            this.guna2TextBox2.BorderRadius = 10;
             this.guna2TextBox2.BorderThickness = 0;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
+            this.guna2TextBox2.DefaultText = "Mật khẩu";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -201,17 +186,17 @@ namespace zaro
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Mật khẩu";
+            this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(319, 48);
             this.guna2TextBox2.TabIndex = 1;
             // 
             // guna2TextBox1
             // 
-            this.guna2TextBox1.BorderRadius = 6;
+            this.guna2TextBox1.BorderRadius = 10;
             this.guna2TextBox1.BorderThickness = 0;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DefaultText = "Số điện thoại / Email";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -224,76 +209,77 @@ namespace zaro
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Số điện thoại / Email";
+            this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(319, 48);
             this.guna2TextBox1.TabIndex = 0;
             // 
-            // guna2ImageButton1
+            // iconButton1
             // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.guna2ImageButton1.Image = global::zaro.Properties.Resources.cancel_icon;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(14, 14);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(333, 12);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(14, 14);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.TabIndex = 37;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.X;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton1.IconSize = 20;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButton1.Location = new System.Drawing.Point(559, 26);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(42, 31);
+            this.iconButton1.TabIndex = 15;
+            this.iconButton1.UseVisualStyleBackColor = true;
             // 
-            // guna2Panel1
+            // guna2HtmlLabel1
             // 
-            this.guna2Panel1.BackgroundImage = global::zaro.Properties.Resources.ZARO_logo;
-            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(475, 475);
-            this.guna2Panel1.TabIndex = 0;
+            this.guna2HtmlLabel1.AutoSize = false;
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(344, 97);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(168, 31);
+            this.guna2HtmlLabel1.TabIndex = 14;
+            this.guna2HtmlLabel1.Text = "Đăng nhập";
+            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // login
+            // register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(850, 475);
-            this.Controls.Add(this.guna2Panel2);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.materialLabel2);
+            this.Controls.Add(this.materialDivider2);
+            this.Controls.Add(this.materialDivider1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.materialLabel1);
+            this.Controls.Add(this.materialCheckbox1);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.guna2Panel3);
+            this.Controls.Add(this.iconButton1);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(850, 475);
-            this.Name = "login";
-            this.ShowIcon = false;
+            this.Name = "register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
+            this.Text = "register";
             this.guna2Panel3.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
+
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private NotifyIcon notifyIcon1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Label label1;
-        private Label label2;
+        private System.Windows.Forms.Label label2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialDivider materialDivider2;
         private MaterialSkin.Controls.MaterialDivider materialDivider1;
-        private Label label3;
+        private System.Windows.Forms.Label label1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Label label4;
-        private Label label5;
-        private CheckBox checkBox1;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
-
