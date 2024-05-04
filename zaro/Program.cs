@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using zaro.Classes;
 
 namespace zaro
 {
@@ -14,6 +15,7 @@ namespace zaro
         [STAThread]
         static void Main()
         {
+            connectDatabase.databaseConnection();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new splash_screen());
