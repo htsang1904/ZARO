@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,6 +38,16 @@ namespace zaro
             isPasswordVisible = !isPasswordVisible;
             guna2Button2.Image = isPasswordVisible ? Properties.Resources.eyes_open_icon : Properties.Resources.eyes_close_icon;
             txtLogPass.PasswordChar = isPasswordVisible ? '\0' : '*';
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtLogUsername.Text) || string.IsNullOrEmpty(txtLogPass.Text) )
+            {
+                guna2MessageDialog1.Text = "Vui lòng điền đầy đủ thông tin";
+                guna2MessageDialog1.Caption = "Lỗi";
+                guna2MessageDialog1.Show();
+            }
         }
     }
 }

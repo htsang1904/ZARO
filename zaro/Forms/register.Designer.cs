@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.showPassBtn1 = new Guna.UI2.WinForms.Guna2Button();
+            this.showPassBtn = new Guna.UI2.WinForms.Guna2Button();
             this.txtRegPassConfirm = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtRegPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtRegMail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtRegPhone = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.showPassBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.showPassBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -56,6 +56,22 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(379, 475);
             this.guna2Panel2.TabIndex = 2;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(30, 28);
+            this.guna2ImageButton1.Image = global::zaro.Properties.Resources.back_icon;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(28, 26);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(324, 12);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 28);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(41, 35);
+            this.guna2ImageButton1.TabIndex = 37;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // guna2Button1
             // 
@@ -98,6 +114,54 @@
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(375, 291);
             this.guna2Panel3.TabIndex = 17;
+            // 
+            // showPassBtn1
+            // 
+            this.showPassBtn1.BackColor = System.Drawing.Color.Transparent;
+            this.showPassBtn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.showPassBtn1.BorderColor = System.Drawing.Color.Silver;
+            this.showPassBtn1.BorderRadius = 6;
+            this.showPassBtn1.BorderThickness = 1;
+            this.showPassBtn1.CustomImages.ImageSize = new System.Drawing.Size(15, 20);
+            this.showPassBtn1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.showPassBtn1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.showPassBtn1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.showPassBtn1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.showPassBtn1.FillColor = System.Drawing.Color.Transparent;
+            this.showPassBtn1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.showPassBtn1.ForeColor = System.Drawing.Color.White;
+            this.showPassBtn1.Image = global::zaro.Properties.Resources.eyes_close_icon;
+            this.showPassBtn1.ImageSize = new System.Drawing.Size(16, 16);
+            this.showPassBtn1.Location = new System.Drawing.Point(300, 228);
+            this.showPassBtn1.Name = "showPassBtn1";
+            this.showPassBtn1.Padding = new System.Windows.Forms.Padding(4);
+            this.showPassBtn1.Size = new System.Drawing.Size(37, 34);
+            this.showPassBtn1.TabIndex = 39;
+            this.showPassBtn1.Click += new System.EventHandler(this.showPassBtn1_Click);
+            // 
+            // showPassBtn
+            // 
+            this.showPassBtn.BackColor = System.Drawing.Color.Transparent;
+            this.showPassBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.showPassBtn.BorderColor = System.Drawing.Color.Silver;
+            this.showPassBtn.BorderRadius = 6;
+            this.showPassBtn.BorderThickness = 1;
+            this.showPassBtn.CustomImages.ImageSize = new System.Drawing.Size(15, 20);
+            this.showPassBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.showPassBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.showPassBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.showPassBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.showPassBtn.FillColor = System.Drawing.Color.Transparent;
+            this.showPassBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.showPassBtn.ForeColor = System.Drawing.Color.White;
+            this.showPassBtn.Image = global::zaro.Properties.Resources.eyes_close_icon;
+            this.showPassBtn.ImageSize = new System.Drawing.Size(16, 16);
+            this.showPassBtn.Location = new System.Drawing.Point(300, 161);
+            this.showPassBtn.Name = "showPassBtn";
+            this.showPassBtn.Padding = new System.Windows.Forms.Padding(4);
+            this.showPassBtn.Size = new System.Drawing.Size(37, 34);
+            this.showPassBtn.TabIndex = 39;
+            this.showPassBtn.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // txtRegPassConfirm
             // 
@@ -199,22 +263,6 @@
             this.txtRegPhone.Size = new System.Drawing.Size(319, 48);
             this.txtRegPhone.TabIndex = 0;
             // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(30, 28);
-            this.guna2ImageButton1.Image = global::zaro.Properties.Resources.back_icon;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(28, 26);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(324, 12);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 28);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(41, 35);
-            this.guna2ImageButton1.TabIndex = 37;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackgroundImage = global::zaro.Properties.Resources.ZARO_logo;
@@ -225,61 +273,13 @@
             this.guna2Panel1.Size = new System.Drawing.Size(475, 475);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // showPassBtn
-            // 
-            this.showPassBtn.BackColor = System.Drawing.Color.Transparent;
-            this.showPassBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.showPassBtn.BorderColor = System.Drawing.Color.Silver;
-            this.showPassBtn.BorderRadius = 6;
-            this.showPassBtn.BorderThickness = 1;
-            this.showPassBtn.CustomImages.ImageSize = new System.Drawing.Size(15, 20);
-            this.showPassBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.showPassBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.showPassBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.showPassBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.showPassBtn.FillColor = System.Drawing.Color.Transparent;
-            this.showPassBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.showPassBtn.ForeColor = System.Drawing.Color.White;
-            this.showPassBtn.Image = global::zaro.Properties.Resources.eyes_close_icon;
-            this.showPassBtn.ImageSize = new System.Drawing.Size(16, 16);
-            this.showPassBtn.Location = new System.Drawing.Point(300, 161);
-            this.showPassBtn.Name = "showPassBtn";
-            this.showPassBtn.Padding = new System.Windows.Forms.Padding(4);
-            this.showPassBtn.Size = new System.Drawing.Size(37, 34);
-            this.showPassBtn.TabIndex = 39;
-            this.showPassBtn.Click += new System.EventHandler(this.guna2Button2_Click);
-            // 
-            // showPassBtn1
-            // 
-            this.showPassBtn1.BackColor = System.Drawing.Color.Transparent;
-            this.showPassBtn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.showPassBtn1.BorderColor = System.Drawing.Color.Silver;
-            this.showPassBtn1.BorderRadius = 6;
-            this.showPassBtn1.BorderThickness = 1;
-            this.showPassBtn1.CustomImages.ImageSize = new System.Drawing.Size(15, 20);
-            this.showPassBtn1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.showPassBtn1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.showPassBtn1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.showPassBtn1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.showPassBtn1.FillColor = System.Drawing.Color.Transparent;
-            this.showPassBtn1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.showPassBtn1.ForeColor = System.Drawing.Color.White;
-            this.showPassBtn1.Image = global::zaro.Properties.Resources.eyes_close_icon;
-            this.showPassBtn1.ImageSize = new System.Drawing.Size(16, 16);
-            this.showPassBtn1.Location = new System.Drawing.Point(300, 228);
-            this.showPassBtn1.Name = "showPassBtn1";
-            this.showPassBtn1.Padding = new System.Windows.Forms.Padding(4);
-            this.showPassBtn1.Size = new System.Drawing.Size(37, 34);
-            this.showPassBtn1.TabIndex = 39;
-            this.showPassBtn1.Click += new System.EventHandler(this.showPassBtn1_Click);
-            // 
             // guna2MessageDialog1
             // 
             this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
             this.guna2MessageDialog1.Caption = null;
             this.guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
             this.guna2MessageDialog1.Parent = this;
-            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
             this.guna2MessageDialog1.Text = null;
             // 
             // register

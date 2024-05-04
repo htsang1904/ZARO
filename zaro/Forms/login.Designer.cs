@@ -31,9 +31,8 @@ namespace zaro
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label5 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -44,19 +43,14 @@ namespace zaro
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.txtLogPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtLogUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
             // 
             // guna2Panel2
             // 
@@ -77,6 +71,22 @@ namespace zaro
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(378, 475);
             this.guna2Panel2.TabIndex = 1;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(15, 15);
+            this.guna2ImageButton1.Image = global::zaro.Properties.Resources.cancel_icon;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(14, 14);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(333, 12);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(14, 14);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.TabIndex = 37;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // label5
             // 
@@ -169,6 +179,7 @@ namespace zaro
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 25;
             this.guna2Button1.Text = "Đăng nhập";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // label1
             // 
@@ -189,6 +200,30 @@ namespace zaro
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(375, 150);
             this.guna2Panel3.TabIndex = 17;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Button2.BorderColor = System.Drawing.Color.Silver;
+            this.guna2Button2.BorderRadius = 6;
+            this.guna2Button2.BorderThickness = 1;
+            this.guna2Button2.CustomImages.ImageSize = new System.Drawing.Size(15, 20);
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Image = global::zaro.Properties.Resources.eyes_close_icon;
+            this.guna2Button2.ImageSize = new System.Drawing.Size(16, 16);
+            this.guna2Button2.Location = new System.Drawing.Point(300, 93);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Padding = new System.Windows.Forms.Padding(4);
+            this.guna2Button2.Size = new System.Drawing.Size(37, 34);
+            this.guna2Button2.TabIndex = 38;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // txtLogPass
             // 
@@ -238,22 +273,6 @@ namespace zaro
             this.txtLogUsername.Size = new System.Drawing.Size(319, 48);
             this.txtLogUsername.TabIndex = 0;
             // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.guna2ImageButton1.Image = global::zaro.Properties.Resources.cancel_icon;
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(14, 14);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(333, 12);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(14, 14);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.TabIndex = 37;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackgroundImage = global::zaro.Properties.Resources.ZARO_logo;
@@ -264,29 +283,14 @@ namespace zaro
             this.guna2Panel1.Size = new System.Drawing.Size(475, 475);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2Button2
+            // guna2MessageDialog1
             // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Button2.BorderColor = System.Drawing.Color.Silver;
-            this.guna2Button2.BorderRadius = 6;
-            this.guna2Button2.BorderThickness = 1;
-            this.guna2Button2.CustomImages.ImageSize = new System.Drawing.Size(15, 20);
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::zaro.Properties.Resources.eyes_close_icon;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(16, 16);
-            this.guna2Button2.Location = new System.Drawing.Point(300, 93);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Padding = new System.Windows.Forms.Padding(4);
-            this.guna2Button2.Size = new System.Drawing.Size(37, 34);
-            this.guna2Button2.TabIndex = 38;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.guna2MessageDialog1.Caption = null;
+            this.guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.guna2MessageDialog1.Parent = this;
+            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.guna2MessageDialog1.Text = null;
             // 
             // login
             // 
@@ -312,7 +316,6 @@ namespace zaro
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private NotifyIcon notifyIcon1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2TextBox txtLogPass;
@@ -328,6 +331,7 @@ namespace zaro
         private CheckBox checkBox1;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
     }
 }
 
