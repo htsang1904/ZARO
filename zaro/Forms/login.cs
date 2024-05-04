@@ -28,7 +28,7 @@ namespace zaro
         private void label2_Click(object sender, EventArgs e)
         {
             Hide();
-            register register = new register();
+            Register register = new Register();
             register.Show();
             Close();
         }

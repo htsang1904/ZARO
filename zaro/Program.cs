@@ -15,7 +15,7 @@ namespace zaro
         [STAThread]
         static void Main()
         {
-            connectDatabase.databaseConnection();
+            FbClient.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new splash_screen());

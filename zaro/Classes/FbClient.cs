@@ -1,26 +1,27 @@
-﻿using FireSharp.Interfaces;
+﻿using FireSharp;
 using FireSharp.Config;
-using FireSharp;
+using FireSharp.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
 
 namespace zaro.Classes
 {
-    internal static class connectDatabase
+    internal class FbClient
     {
-        private static IFirebaseConfig config;
-        public static void databaseConnection()
+        public static IFirebaseClient Client { get; private set; }
+
+        public static void Initialize()
         {
-            config = new FirebaseConfig()
+            IFirebaseConfig config = new FirebaseConfig()
             {
                 AuthSecret = "dqPeuKE3qP2ptlvJAubc2tyRpbLaHRm0H90FceKF",
                 BasePath = "https://zaro-b91c3-default-rtdb.firebaseio.com/"
             };
+
+            Client = new FirebaseClient(config);
         }
-        public static IFirebaseClient client = new FireSharp.FirebaseClient(config);
     }
 }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace zaro.Classes
 {
-    internal class register
+    internal class registerInfo
     {
         public string email { get; set; }
-        public string password { get; set; }
         public string phoneNumber { get; set; }
+        public string password { get; set; }
     }
 }

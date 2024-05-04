@@ -1,5 +1,6 @@
 ﻿using FireSharp.Interfaces;
 using FireSharp.Response;
+using FireSharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,14 +14,15 @@ using zaro.Classes;
 
 namespace zaro
 {
-    public partial class register : Form
+    public partial class Register : Form
     {
         bool isPasswordVisible = false;
         bool isPasswordConfirmVisible = false;
-        IFirebaseClient client = connectDatabase.client;
-        public register()
+        IFirebaseClient client;
+        public Register()
         {
             InitializeComponent();
+            client = FbClient.Client;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -39,8 +41,22 @@ namespace zaro
                 guna2MessageDialog1.Caption = "Lỗi";
                 guna2MessageDialog1.Show();
             }
-            var register = new register();
-            FirebaseResponse response = client.Set("users", register);
+            var register = new registerInfo()
+            {
+                email = txtRegMail.Text,
+                phoneNumber = txtRegPhone.Text,
+                password = txtRegPass.Text,
+            };
+            SetResponse response = await client.SetAsync("users/"+ txtRegPhone.Text, register); 
+            registerInfo res = response.ResultAs<registerInfo>();
+            if(res != null)
+            {
+                guna2MessageDialog1.Text = "Chúc mừng bạn đã đăng ký thành công!";
+                guna2MessageDialog1.Caption = "Thông báo";
+                guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
+                guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+                guna2MessageDialog1.Show();
+            }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
