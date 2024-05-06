@@ -11,6 +11,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using zaro.Classes;
+using System.Text.RegularExpressions;
+using System.Web.UI.Design;
 
 namespace zaro
 {
@@ -40,6 +42,18 @@ namespace zaro
                 guna2MessageDialog1.Text = "Vui lòng điền đầy đủ thông tin";
                 guna2MessageDialog1.Caption = "Lỗi";
                 guna2MessageDialog1.Show();
+                return;
+            }
+
+            string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            string emailAddress = txtRegMail.Text.Trim();
+
+            if (!string.IsNullOrEmpty(emailAddress) && !Regex.IsMatch(emailAddress, emailPattern))
+            {
+                guna2MessageDialog1.Text = "Vui lòng nhập đúng định dạng mail";
+                guna2MessageDialog1.Caption = "Lỗi";
+                guna2MessageDialog1.Show();
+                return;
             }
             var register = new registerInfo()
             {
@@ -47,9 +61,9 @@ namespace zaro
                 phoneNumber = txtRegPhone.Text,
                 password = txtRegPass.Text,
             };
-            SetResponse response = await client.SetAsync("users/"+ txtRegPhone.Text, register); 
+            SetResponse response = await client.SetAsync("users/" + txtRegPhone.Text, register);
             registerInfo res = response.ResultAs<registerInfo>();
-            if(res != null)
+            if (res != null)
             {
                 guna2MessageDialog1.Text = "Chúc mừng bạn đã đăng ký thành công!";
                 guna2MessageDialog1.Caption = "Thông báo";
