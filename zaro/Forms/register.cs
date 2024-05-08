@@ -37,7 +37,7 @@ namespace zaro
             Close();
         }
 
-        private async void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtRegPhone.Text) || string.IsNullOrEmpty(txtRegMail.Text) || string.IsNullOrEmpty(txtRegPass.Text) || string.IsNullOrEmpty(txtRegPassConfirm.Text)) 
             {
@@ -64,7 +64,9 @@ namespace zaro
                 phoneNumber = txtRegPhone.Text,
                 password = txtRegPass.Text,
             };
-            SetResponse response = await client.SetAsync("users/" + txtRegPhone.Text, register);
+
+
+            PushResponse response = client.Push("Users/" + txtRegPhone.Text, register);
             registerInfo res = response.ResultAs<registerInfo>();
             if (res != null)
             {
