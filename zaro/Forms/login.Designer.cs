@@ -238,6 +238,7 @@ namespace zaro
             this.txtLogPass.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(241)))), ((int)(((byte)(234)))));
             this.txtLogPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtLogPass.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtLogPass.ForeColor = System.Drawing.Color.Black;
             this.txtLogPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtLogPass.Location = new System.Drawing.Point(28, 85);
             this.txtLogPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -262,6 +263,7 @@ namespace zaro
             this.txtLogUsername.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(241)))), ((int)(((byte)(234)))));
             this.txtLogUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtLogUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtLogUsername.ForeColor = System.Drawing.Color.Black;
             this.txtLogUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtLogUsername.Location = new System.Drawing.Point(28, 14);
             this.txtLogUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);

@@ -85,3 +85,9 @@ C:\GitHub\ZARO\zaro\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
 C:\GitHub\ZARO\zaro\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
 C:\GitHub\ZARO\zaro\bin\Debug\System.Net.Http.Extensions.xml
 C:\GitHub\ZARO\zaro\bin\Debug\System.Net.Http.Primitives.xml
+C:\GitHub\ZARO\zaro\bin\Debug\Firebase.dll
+C:\GitHub\ZARO\zaro\bin\Debug\LiteDB.dll
+C:\GitHub\ZARO\zaro\bin\Debug\System.Reactive.dll
+C:\GitHub\ZARO\zaro\bin\Debug\Firebase.xml
+C:\GitHub\ZARO\zaro\bin\Debug\LiteDB.xml
+C:\GitHub\ZARO\zaro\bin\Debug\System.Reactive.xml

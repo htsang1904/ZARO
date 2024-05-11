@@ -15,6 +15,10 @@ using System.Text.RegularExpressions;
 using System.Web.UI.Design;
 using Guna.UI2.WinForms;
 using System.Security.Policy;
+using System.Web.Configuration;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using Firebase.Database.Query;
+using System.Net;
 
 namespace zaro
 {
@@ -22,11 +26,13 @@ namespace zaro
     {
         bool isPasswordVisible = false;
         bool isPasswordConfirmVisible = false;
-        IFirebaseClient client;
+        private IFirebaseClient FsharpClient;
+        private Firebase.Database.FirebaseClient FClient;
         public Register()
         {
             InitializeComponent();
-            client = FbClient.Client;
+            FsharpClient = FbClient.FsharpClient;
+            FClient = FbClient.FClient;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -37,7 +43,7 @@ namespace zaro
             Close();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private async void guna2Button1_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtRegPhone.Text) || string.IsNullOrEmpty(txtRegMail.Text) || string.IsNullOrEmpty(txtRegPass.Text) || string.IsNullOrEmpty(txtRegPassConfirm.Text)) 
             {
@@ -58,6 +64,12 @@ namespace zaro
             }
             if (!IsValidPassword()) return;
 
+            if(await IsUserExist(txtRegPhone.Text.Trim()))
+            {
+                showMessage("Số điện thoại đã tồn tại", "Thông báo", "Error", "Light");
+                return;
+            }
+
             var register = new registerInfo()
             {
                 email = txtRegMail.Text,
@@ -66,15 +78,11 @@ namespace zaro
             };
 
 
-            PushResponse response = client.Push("Users/" + txtRegPhone.Text, register);
+            SetResponse response = FsharpClient.Set("Users/" + txtRegPhone.Text, register);
             registerInfo res = response.ResultAs<registerInfo>();
             if (res != null)
             {
-                guna2MessageDialog1.Text = "Chúc mừng bạn đã đăng ký thành công!";
-                guna2MessageDialog1.Caption = "Thông báo";
-                guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
-                guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
-                guna2MessageDialog1.Show();
+                showMessage("Chúc mừng bạn đã đăng ký thành công!", "Thông báo", "None", "Light");
                 resetData();
             }
         }
@@ -101,7 +109,7 @@ namespace zaro
         }
         public bool IsValidMail(string email)
         {
-            string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            string emailPattern = @"^[a-zA-Z0-9._%+-]+@gmail\.com$";
             Regex regex = new Regex(emailPattern);
             Match match = regex.Match(email);
             return match.Success;
@@ -143,6 +151,27 @@ namespace zaro
                 return false;
             }
         }
+
+        public async Task<bool> IsUserExist(string username)
+        {
+            var userSnapshot = await FClient
+                .Child("Users")
+                .OrderBy("phoneNumber")
+                .EqualTo(username)
+                .OnceAsync<registerInfo>();
+            var userData = userSnapshot.FirstOrDefault()?.Object;
+            if(userData != null)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+           
+           
+        }
+
         public void resetData()
         {
             txtRegPhone.Clear();
