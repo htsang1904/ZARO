@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GitHub\\ZARO\\",
+  "WorkspaceRootPath": "D:\\C#\\ZaroProject\\ZARO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|d:\\c#\\zaroproject\\zaro\\zaro\\forms\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|d:\\c#\\zaroproject\\zaro\\zaro\\forms\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\classes\\fbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\classes\\fbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|d:\\c#\\zaroproject\\zaro\\zaro\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|d:\\c#\\zaroproject\\zaro\\zaro\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\Forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|D:\\C#\\ZaroProject\\ZARO\\zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\classes\\registerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|D:\\C#\\ZaroProject\\ZARO\\zaro\\classes\\fbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\classes\\fbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|D:\\C#\\ZaroProject\\ZARO\\zaro\\classes\\registerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\classes\\registerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|D:\\C#\\ZaroProject\\ZARO\\zaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,66 +46,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "register.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\register.cs",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\register.cs",
               "RelativeDocumentMoniker": "zaro\\Forms\\register.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\register.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\register.cs",
               "RelativeToolTip": "zaro\\Forms\\register.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAUwFQAAABWAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAUwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T02:46:22.138Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "homepage.cs [Design]",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs",
-              "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs [Design]",
-              "RelativeToolTip": "zaro\\Forms\\homepage.cs [Design]",
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\Message.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\Message.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\Message.cs*",
+              "RelativeToolTip": "zaro\\Forms\\Message.cs*",
+              "ViewState": "AQIAADAAAAAAAAAAAAAawEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:02:09.465Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "register.cs [Design]",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\register.cs",
-              "RelativeDocumentMoniker": "zaro\\Forms\\register.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\register.cs [Design]",
-              "RelativeToolTip": "zaro\\Forms\\register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T04:31:03.607Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-21T11:50:04.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\login.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\login.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\login.cs [Design]",
+              "RelativeToolTip": "zaro\\Forms\\login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:49:37.51Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Message.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\Message.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\Message.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\Message.cs [Design]*",
+              "RelativeToolTip": "zaro\\Forms\\Message.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T11:48:24.906Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\login.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\login.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\login.cs",
+              "RelativeToolTip": "zaro\\Forms\\login.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAzwDcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:42:36.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "homepage.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Forms\\homepage.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T18:02:09.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FbClient.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Classes\\FbClient.cs",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Classes\\FbClient.cs",
               "RelativeDocumentMoniker": "zaro\\Classes\\FbClient.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Classes\\FbClient.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Classes\\FbClient.cs",
               "RelativeToolTip": "zaro\\Classes\\FbClient.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T08:41:39.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T08:41:39.895Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "registerInfo.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Classes\\registerInfo.cs",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Classes\\registerInfo.cs",
               "RelativeDocumentMoniker": "zaro\\Classes\\registerInfo.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Classes\\registerInfo.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Classes\\registerInfo.cs",
               "RelativeToolTip": "zaro\\Classes\\registerInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,39 +147,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Program.cs",
+              "DocumentMoniker": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Program.cs",
               "RelativeDocumentMoniker": "zaro\\Program.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Program.cs",
+              "ToolTip": "D:\\C#\\ZaroProject\\ZARO\\zaro\\Program.cs",
               "RelativeToolTip": "zaro\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAnwBQAAAAMAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAnwA4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T03:04:25.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\login.cs",
-              "RelativeDocumentMoniker": "zaro\\Forms\\login.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\login.cs [Design]",
-              "RelativeToolTip": "zaro\\Forms\\login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:13:03.276Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\login.cs",
-              "RelativeDocumentMoniker": "zaro\\Forms\\login.cs",
-              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\login.cs",
-              "RelativeToolTip": "zaro\\Forms\\login.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwEMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:42:36.681Z"
             }
           ]
         }
