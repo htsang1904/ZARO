@@ -16,5 +16,10 @@ namespace zaro.Forms
         {
             InitializeComponent();
         }
+
+        private void guna2TextBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }

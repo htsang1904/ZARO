@@ -139,8 +139,6 @@ C:\Users\Admin\Source\Repos\ZARO\zaro\bin\Debug\System.Text.Json.xml
 C:\Users\Admin\Source\Repos\ZARO\zaro\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Admin\Source\Repos\ZARO\zaro\bin\Debug\System.ValueTuple.xml
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.csproj.AssemblyReference.cache
-C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.exe.config
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.login.resources
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.Properties.Resources.resources
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.Register.resources
@@ -150,3 +148,5 @@ C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.csproj.CoreCompileInputs.ca
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.csproj.Up2Date
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.exe
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.pdb
+C:\Users\Admin\source\repos\ZARO\zaro\obj\Debug\zaro.Forms.homepage.resources
+C:\Users\Admin\source\repos\ZARO\zaro\obj\Debug\zaro.Forms.personalpage.resources
