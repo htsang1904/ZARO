@@ -30,8 +30,8 @@
               "Title": "homepage.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs",
               "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs*",
-              "RelativeToolTip": "zaro\\Forms\\homepage.cs*",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs",
+              "RelativeToolTip": "zaro\\Forms\\homepage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T07:44:21.6Z",
@@ -48,8 +48,8 @@
               "Title": "homepage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs",
               "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs [Design]*",
-              "RelativeToolTip": "zaro\\Forms\\homepage.cs [Design]*",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs [Design]",
+              "RelativeToolTip": "zaro\\Forms\\homepage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T05:18:55.98Z",
               "EditorCaption": " [Design]"
@@ -60,12 +60,11 @@
               "Title": "homepage.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.Designer.cs",
               "RelativeDocumentMoniker": "zaro\\Forms\\homepage.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.Designer.cs*",
-              "RelativeToolTip": "zaro\\Forms\\homepage.Designer.cs*",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.Designer.cs",
+              "RelativeToolTip": "zaro\\Forms\\homepage.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T05:18:49.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T05:18:49.676Z"
             }
           ]
         }
