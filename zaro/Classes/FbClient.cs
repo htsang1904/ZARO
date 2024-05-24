@@ -1,4 +1,5 @@
-﻿using FireSharp;
+﻿using Firebase.Auth.Providers;
+using FireSharp;
 using FireSharp.Config;
 using FireSharp.Interfaces;
 using System;
@@ -23,6 +24,7 @@ namespace zaro.Classes
             };
 
             FsharpClient = new FireSharp.FirebaseClient(config);
+
         }
     }
 }
