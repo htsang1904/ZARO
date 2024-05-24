@@ -171,3 +171,4 @@ C:\GitHub\ZARO\zaro\bin\Debug\Google.Apis.Core.pdb
 C:\GitHub\ZARO\zaro\bin\Debug\Google.Apis.Core.xml
 C:\GitHub\ZARO\zaro\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\GitHub\ZARO\zaro\bin\Debug\System.Collections.Immutable.xml
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.Forms.reset_password.resources

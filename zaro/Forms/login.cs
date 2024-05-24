@@ -1,5 +1,9 @@
-﻿using Firebase.Database;
+﻿using Firebase.Auth.Providers;
+using Firebase.Auth.Repository;
+using Firebase.Auth;
+using Firebase.Database;
 using Firebase.Database.Query;
+using FirebaseAdmin.Auth;
 using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
@@ -11,6 +15,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using zaro.Classes;
+using zaro.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace zaro
 {
@@ -20,10 +26,26 @@ namespace zaro
 
         private FirebaseClient client;
 
+        private FirebaseAuthConfig config = new FirebaseAuthConfig
+        {
+            ApiKey = "AIzaSyD65Q-h6yVWJrQ2pQ7L57U_lkpxzMPwHMo",
+            AuthDomain = "zaro-b91c3.firebaseapp.com",
+            Providers = new FirebaseAuthProvider[]
+            {
+                new GoogleProvider().AddScopes("email"),
+                new EmailProvider()
+            },
+            UserRepository = new FileUserRepository("FirebaseSample")
+        };
+        private FirebaseAuthClient authClient;
         public login()
         {
             InitializeComponent();
             client = FbClient.FClient;
+
+            authClient = new FirebaseAuthClient(config);
+
+            AutoSignIn();
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -57,23 +79,49 @@ namespace zaro
             }
             var username = txtLogUsername.Text.Trim();
             var password = txtLogPass.Text.Trim();
-            var data = await client.Child("Users").OrderBy("phoneNumber").EqualTo(username).OnceAsync<registerInfo>();
-            if (data.Count > 0) 
+            try
             {
-                var user = data.First().Object;
-                if (user.password == password)
-                {
-                    MessageBox.Show("Đăng nhập thành công");
-                }
-                else
-                {
-                    MessageBox.Show("Mật khẩu không chính xác");
-                }
+                var userCredential = await authClient.SignInWithEmailAndPasswordAsync(username, password);
+
+                var user = userCredential.User;
+                var refreshToken = user.Credential.RefreshToken;
+                var token = await user.GetIdTokenAsync();
+                var displayName = user.Info.DisplayName;
+                var uid = user.Uid;
+                MessageBox.Show($"Đăng nhập thành công!\n\nID Token: {token}\nRefresh Token: {refreshToken}\nUser ID: {uid}\nDisplay Name: {displayName}\n",
+                                "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else
+            catch (FirebaseAuthHttpException ex)
             {
-                MessageBox.Show("Thông tin đăng kí không chính xác");
-            }    
+                MessageBox.Show($"Lỗi xác thực Firebase: {ex.Reason}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            reset_password resetPassword = new reset_password();
+            resetPassword.Show();
+        }
+
+        private async void AutoSignIn()
+        {
+            try
+            {
+                if (authClient.User != null)
+                {
+                    var user = authClient.User;
+                    MessageBox.Show($"Chào mừng trở lại, {user.Info.Email}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
