@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\ZARO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "homepage.cs",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs",
+              "RelativeToolTip": "zaro\\Forms\\homepage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T07:44:21.6Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "homepage.cs [Design]",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs [Design]",
+              "RelativeToolTip": "zaro\\Forms\\homepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T05:18:55.98Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "homepage.Designer.cs",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.Designer.cs",
+              "RelativeDocumentMoniker": "zaro\\Forms\\homepage.Designer.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.Designer.cs",
+              "RelativeToolTip": "zaro\\Forms\\homepage.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T05:18:49.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

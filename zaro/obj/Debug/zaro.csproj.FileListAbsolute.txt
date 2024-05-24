@@ -150,3 +150,5 @@ C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.exe
 C:\Users\Admin\Source\Repos\ZARO\zaro\obj\Debug\zaro.pdb
 C:\Users\Admin\source\repos\ZARO\zaro\obj\Debug\zaro.Forms.homepage.resources
 C:\Users\Admin\source\repos\ZARO\zaro\obj\Debug\zaro.Forms.personalpage.resources
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.Forms.homepage.resources
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.Forms.personalpage.resources

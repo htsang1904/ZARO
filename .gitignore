@@ -388,11 +388,16 @@ InteropTests/NativeTests/out
 # 'git update-index --assume-unchanged <filename>' will allow ignoring changes for tracked files.
 **/ScratchProject/
 **/ScratchProjectWithInternals/
-.vs/
-zaro/obj/
-# Auto-generated files
-*.log
-*.tlog
-# Build directories
-[Bb]in/
-[Oo]bj/
+.vs/ZARO/v17/DocumentLayout.json
+.vs/ZARO/v17/DocumentLayout.json
+.vs/ZARO/v17/DocumentLayout.json
+zaro/bin/Debug/zaro.exe
+zaro/bin/Debug/zaro.pdb
+zaro/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+zaro/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+zaro/obj/Debug/zaro.csproj.AssemblyReference.cache
+zaro/obj/Debug/zaro.csproj.CoreCompileInputs.cache
+zaro/obj/Debug/zaro.csproj.FileListAbsolute.txt
+zaro/obj/Debug/zaro.csproj.GenerateResource.cache
+zaro/obj/Debug/zaro.exe
+zaro/obj/Debug/zaro.pdb
