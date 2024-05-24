@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace zaro.Forms
 {
-    public partial class Message : Form
+    public partial class ZaroMessage : Form
     {
-        public Message()
+        public ZaroMessage()
         {
             InitializeComponent();
         }
@@ -43,6 +43,26 @@ namespace zaro.Forms
         }
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+            //MessageBox.Show("aaa");
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label35_Click(object sender, EventArgs e)
         {
 
         }
