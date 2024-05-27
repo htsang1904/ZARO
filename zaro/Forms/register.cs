@@ -31,23 +31,14 @@ namespace zaro
         bool isPasswordConfirmVisible = false;
         private IFirebaseClient FsharpClient;
         private Firebase.Database.FirebaseClient FClient;
-        private FirebaseAuthConfig config = new FirebaseAuthConfig
-        {
-            ApiKey = "AIzaSyD65Q-h6yVWJrQ2pQ7L57U_lkpxzMPwHMo",
-            AuthDomain = "zaro-b91c3.firebaseapp.com",
-            Providers = new FirebaseAuthProvider[]
-            {
-                new GoogleProvider().AddScopes("email"),
-                new EmailProvider()
-            },
-        };
+        
         private FirebaseAuthClient authClient;
         public Register()
         {
             InitializeComponent();
             FsharpClient = FbClient.FsharpClient;
             FClient = FbClient.FClient;
-            authClient = new FirebaseAuthClient(config);
+            authClient = FbAuth.authClient;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)

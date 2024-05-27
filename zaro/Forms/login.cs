@@ -26,26 +26,13 @@ namespace zaro
 
         private FirebaseClient client;
 
-        private FirebaseAuthConfig config = new FirebaseAuthConfig
-        {
-            ApiKey = "AIzaSyD65Q-h6yVWJrQ2pQ7L57U_lkpxzMPwHMo",
-            AuthDomain = "zaro-b91c3.firebaseapp.com",
-            Providers = new FirebaseAuthProvider[]
-            {
-                new GoogleProvider().AddScopes("email"),
-                new EmailProvider()
-            },
-            UserRepository = new FileUserRepository("FirebaseSample")
-        };
         private FirebaseAuthClient authClient;
         public login()
         {
             InitializeComponent();
             client = FbClient.FClient;
 
-            authClient = new FirebaseAuthClient(config);
-
-            AutoSignIn();
+            authClient = FbAuth.authClient;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -72,9 +59,7 @@ namespace zaro
         {
             if (string.IsNullOrEmpty(txtLogUsername.Text) || string.IsNullOrEmpty(txtLogPass.Text) )
             {
-                guna2MessageDialog1.Text = "Vui lòng điền đầy đủ thông tin";
-                guna2MessageDialog1.Caption = "Lỗi";
-                guna2MessageDialog1.Show();
+                showMessage("Vui lòng điền đầy đủ thông tin", "Thông báo", "Error", "Light");
                 return;
             }
             var username = txtLogUsername.Text.Trim();
@@ -88,16 +73,15 @@ namespace zaro
                 var token = await user.GetIdTokenAsync();
                 var displayName = user.Info.DisplayName;
                 var uid = user.Uid;
-                MessageBox.Show($"Đăng nhập thành công!\n\nID Token: {token}\nRefresh Token: {refreshToken}\nUser ID: {uid}\nDisplay Name: {displayName}\n",
-                                "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                showMessage($"Đăng nhập thành công!", "Thông báo", "Information", "Light");
             }
             catch (FirebaseAuthHttpException ex)
             {
-                MessageBox.Show($"Lỗi xác thực Firebase: {ex.Reason}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                showMessage($"Thông tin tài khoản không chính xác!", "Thông báo", "Information", "Light");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                showMessage($"Đã xảy ra lỗi: {ex.Message}", "Thông báo", "Error", "Light");
             }
         }
 
@@ -107,21 +91,21 @@ namespace zaro
             resetPassword.Show();
         }
 
-        private async void AutoSignIn()
+       
+        public void showMessage(string message, string caption, string icon, string style)
         {
-            try
+            guna2MessageDialog1.Text = message;
+            guna2MessageDialog1.Caption = caption;
+
+            if (Enum.TryParse(icon, out MessageDialogIcon iconEnum))
             {
-                if (authClient.User != null)
-                {
-                    var user = authClient.User;
-                    MessageBox.Show($"Chào mừng trở lại, {user.Info.Email}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                
+                guna2MessageDialog1.Icon = iconEnum;
             }
-            catch (Exception ex)
+            if (Enum.TryParse(style, out MessageDialogStyle styleEnum))
             {
-                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                guna2MessageDialog1.Style = styleEnum;
             }
+            guna2MessageDialog1.Show();
         }
     }
 }

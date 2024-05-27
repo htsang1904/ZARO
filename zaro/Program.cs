@@ -17,6 +17,7 @@ namespace zaro
         static void Main()
         {
             FbClient.Initialize();
+            FbAuth.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new splash_screen());
