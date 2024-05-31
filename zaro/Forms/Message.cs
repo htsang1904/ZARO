@@ -66,5 +66,15 @@ namespace zaro.Forms
         {
 
         }
+
+        private void guna2GradientPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void label34_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

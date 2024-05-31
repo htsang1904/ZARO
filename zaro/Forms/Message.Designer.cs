@@ -36,15 +36,20 @@
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.label35 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
@@ -53,24 +58,36 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label34 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CirclePictureBox26 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label33 = new System.Windows.Forms.Label();
             this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.guna2Panel19 = new Guna.UI2.WinForms.Guna2Panel();
@@ -79,18 +96,26 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel21 = new Guna.UI2.WinForms.Guna2Panel();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
             this.label30 = new System.Windows.Forms.Label();
             this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
@@ -99,18 +124,26 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel30 = new Guna.UI2.WinForms.Guna2Panel();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
+            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel31 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel32 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel33 = new Guna.UI2.WinForms.Guna2Panel();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel34 = new Guna.UI2.WinForms.Guna2Panel();
             this.label45 = new System.Windows.Forms.Label();
             this.guna2Panel35 = new Guna.UI2.WinForms.Guna2Panel();
@@ -119,18 +152,26 @@
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox16 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel37 = new Guna.UI2.WinForms.Guna2Panel();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox17 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel38 = new Guna.UI2.WinForms.Guna2Panel();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
+            this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel39 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel40 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox18 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel41 = new Guna.UI2.WinForms.Guna2Panel();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox19 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox17 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel42 = new Guna.UI2.WinForms.Guna2Panel();
             this.label57 = new System.Windows.Forms.Label();
             this.guna2Panel43 = new Guna.UI2.WinForms.Guna2Panel();
@@ -139,18 +180,26 @@
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox20 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox18 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel45 = new Guna.UI2.WinForms.Guna2Panel();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox21 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox19 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel46 = new Guna.UI2.WinForms.Guna2Panel();
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
+            this.guna2PictureBox20 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel47 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel48 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel49 = new Guna.UI2.WinForms.Guna2Panel();
             this.label66 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox23 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox21 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel50 = new Guna.UI2.WinForms.Guna2Panel();
             this.label69 = new System.Windows.Forms.Label();
             this.guna2Panel51 = new Guna.UI2.WinForms.Guna2Panel();
@@ -159,145 +208,98 @@
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox24 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox22 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel53 = new Guna.UI2.WinForms.Guna2Panel();
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox25 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox23 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel54 = new Guna.UI2.WinForms.Guna2Panel();
             this.label76 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
-            this.guna2Panel55 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox23 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox21 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox24 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox22 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox25 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox23 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox24 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox18 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox19 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox17 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox20 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox18 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox21 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox19 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox20 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox16 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox17 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox26 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Panel55 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.guna2Panel9.SuspendLayout();
-            this.guna2Panel14.SuspendLayout();
-            this.guna2Panel8.SuspendLayout();
-            this.guna2Panel12.SuspendLayout();
-            this.guna2GradientPanel2.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
-            this.guna2Panel16.SuspendLayout();
-            this.guna2Panel17.SuspendLayout();
-            this.guna2Panel19.SuspendLayout();
-            this.guna2Panel20.SuspendLayout();
-            this.guna2Panel24.SuspendLayout();
-            this.guna2Panel25.SuspendLayout();
-            this.guna2Panel27.SuspendLayout();
-            this.guna2Panel28.SuspendLayout();
-            this.guna2Panel32.SuspendLayout();
-            this.guna2Panel33.SuspendLayout();
-            this.guna2Panel35.SuspendLayout();
-            this.guna2Panel36.SuspendLayout();
-            this.guna2Panel40.SuspendLayout();
-            this.guna2Panel41.SuspendLayout();
-            this.guna2Panel43.SuspendLayout();
-            this.guna2Panel44.SuspendLayout();
-            this.guna2Panel48.SuspendLayout();
-            this.guna2Panel49.SuspendLayout();
-            this.guna2Panel51.SuspendLayout();
-            this.guna2Panel52.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.guna2Panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            this.guna2Panel8.SuspendLayout();
+            this.guna2Panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.guna2GradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).BeginInit();
+            this.guna2GradientPanel1.SuspendLayout();
+            this.guna2Panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
+            this.guna2Panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
+            this.guna2Panel19.SuspendLayout();
+            this.guna2Panel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
+            this.guna2Panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
+            this.guna2Panel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
+            this.guna2Panel27.SuspendLayout();
+            this.guna2Panel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
+            this.guna2Panel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
+            this.guna2Panel33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
+            this.guna2Panel35.SuspendLayout();
+            this.guna2Panel36.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
+            this.guna2Panel40.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).BeginInit();
+            this.guna2Panel41.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).BeginInit();
+            this.guna2Panel43.SuspendLayout();
+            this.guna2Panel44.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).BeginInit();
+            this.guna2Panel48.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).BeginInit();
+            this.guna2Panel49.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).BeginInit();
+            this.guna2Panel51.SuspendLayout();
+            this.guna2Panel52.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -325,6 +327,8 @@
             // 
             // guna2Panel2
             // 
+            this.guna2Panel2.BorderColor = System.Drawing.Color.Gray;
+            this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel2.Controls.Add(this.guna2Panel7);
             this.guna2Panel2.Controls.Add(this.guna2Panel6);
             this.guna2Panel2.Controls.Add(this.guna2Panel5);
@@ -357,6 +361,31 @@
             this.guna2Panel5.TabIndex = 3;
             this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2TextBox1.BorderRadius = 5;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
+            this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(4, 0);
+            this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(13, 13);
+            this.guna2TextBox1.Location = new System.Drawing.Point(3, 27);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "Tìm kiếm trên Zaro Messages";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(200, 22);
+            this.guna2TextBox1.TabIndex = 1;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -369,6 +398,8 @@
             // 
             // guna2Panel4
             // 
+            this.guna2Panel4.BorderColor = System.Drawing.Color.Gray;
+            this.guna2Panel4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel4.Controls.Add(this.label35);
             this.guna2Panel4.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2Panel4.Controls.Add(this.label2);
@@ -389,6 +420,17 @@
             this.label35.Text = "Đang hoạt động";
             this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::zaro.Properties.Resources.avatar017;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(14, 4);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 4;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -401,6 +443,7 @@
             // 
             // guna2Panel9
             // 
+            this.guna2Panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Panel9.Controls.Add(this.guna2CirclePictureBox2);
             this.guna2Panel9.Controls.Add(this.guna2Panel14);
             this.guna2Panel9.Controls.Add(this.label15);
@@ -413,6 +456,18 @@
             this.guna2Panel9.Name = "guna2Panel9";
             this.guna2Panel9.Size = new System.Drawing.Size(206, 48);
             this.guna2Panel9.TabIndex = 4;
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.Image = global::zaro.Properties.Resources.avatar019;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox2.TabIndex = 5;
+            this.guna2CirclePictureBox2.TabStop = false;
             // 
             // guna2Panel14
             // 
@@ -455,6 +510,24 @@
             this.label13.Size = new System.Drawing.Size(93, 15);
             this.label13.TabIndex = 7;
             this.label13.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox5
+            // 
+            this.guna2CirclePictureBox5.ImageRotate = 0F;
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox5.TabIndex = 10;
+            this.guna2CirclePictureBox5.TabStop = false;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox4.TabIndex = 5;
+            this.guna2PictureBox4.TabStop = false;
             // 
             // guna2Panel15
             // 
@@ -537,6 +610,24 @@
             this.label10.TabIndex = 7;
             this.label10.Text = "Đào Duy Khiêm";
             // 
+            // guna2CirclePictureBox4
+            // 
+            this.guna2CirclePictureBox4.ImageRotate = 0F;
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox4.TabIndex = 10;
+            this.guna2CirclePictureBox4.TabStop = false;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox3.TabIndex = 5;
+            this.guna2PictureBox3.TabStop = false;
+            // 
             // guna2Panel13
             // 
             this.guna2Panel13.Location = new System.Drawing.Point(0, 51);
@@ -563,6 +654,24 @@
             this.label7.Size = new System.Drawing.Size(93, 15);
             this.label7.TabIndex = 7;
             this.label7.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox3.TabIndex = 11;
+            this.guna2CirclePictureBox3.TabStop = false;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox2.TabIndex = 5;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2Panel11
             // 
@@ -591,6 +700,15 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Đào Duy Khiêm";
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox1.TabIndex = 5;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // guna2Panel10
             // 
             this.guna2Panel10.Location = new System.Drawing.Point(0, 51);
@@ -610,49 +728,114 @@
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(57, 251);
+            this.guna2TextBox2.Location = new System.Drawing.Point(78, 249);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "Aa";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(473, 34);
+            this.guna2TextBox2.Size = new System.Drawing.Size(461, 34);
             this.guna2TextBox2.TabIndex = 10;
             this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.AutoRoundedCorners = true;
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(147)))));
-            this.guna2GradientPanel2.BorderRadius = 22;
-            this.guna2GradientPanel2.Controls.Add(this.label34);
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(405, 45);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(161, 46);
-            this.guna2GradientPanel2.TabIndex = 13;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(6, 15);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(152, 16);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "Tóc mới đẹp quá bạn ^^";
-            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.OldLace;
+            this.panel2.Controls.Add(this.guna2GradientPanel2);
+            this.panel2.Controls.Add(this.guna2ImageButton3);
+            this.panel2.Controls.Add(this.guna2ImageButton2);
             this.panel2.Controls.Add(this.guna2CirclePictureBox26);
             this.panel2.Controls.Add(this.guna2ImageButton1);
             this.panel2.Controls.Add(this.guna2GradientPanel1);
             this.panel2.Controls.Add(this.guna2TextBox2);
-            this.panel2.Controls.Add(this.guna2GradientPanel2);
-            this.panel2.Location = new System.Drawing.Point(206, 96);
+            this.panel2.Location = new System.Drawing.Point(206, 99);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(578, 295);
+            this.panel2.Size = new System.Drawing.Size(578, 286);
             this.panel2.TabIndex = 15;
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.AutoRoundedCorners = true;
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(84)))), ((int)(((byte)(148)))));
+            this.guna2GradientPanel2.BorderRadius = 18;
+            this.guna2GradientPanel2.BorderThickness = 1;
+            this.guna2GradientPanel2.Controls.Add(this.label34);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(397, 55);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(169, 38);
+            this.guna2GradientPanel2.TabIndex = 20;
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(3, 10);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(166, 16);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Tóc mới đẹp quá bạn ơi <3\r\n";
+            this.label34.Click += new System.EventHandler(this.label34_Click_1);
+            // 
+            // guna2ImageButton3
+            // 
+            this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.Image = global::zaro.Properties.Resources.icons8_add_button_90;
+            this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton3.ImageRotate = 0F;
+            this.guna2ImageButton3.ImageSize = new System.Drawing.Size(24, 24);
+            this.guna2ImageButton3.Location = new System.Drawing.Point(10, 249);
+            this.guna2ImageButton3.Name = "guna2ImageButton3";
+            this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.Size = new System.Drawing.Size(30, 34);
+            this.guna2ImageButton3.TabIndex = 19;
+            // 
+            // guna2ImageButton2
+            // 
+            this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.Image = global::zaro.Properties.Resources.icons8_image_96;
+            this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton2.ImageRotate = 0F;
+            this.guna2ImageButton2.ImageSize = new System.Drawing.Size(27, 27);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(38, 249);
+            this.guna2ImageButton2.Name = "guna2ImageButton2";
+            this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.Size = new System.Drawing.Size(37, 34);
+            this.guna2ImageButton2.TabIndex = 18;
+            // 
+            // guna2CirclePictureBox26
+            // 
+            this.guna2CirclePictureBox26.Image = global::zaro.Properties.Resources.avatar018;
+            this.guna2CirclePictureBox26.ImageRotate = 0F;
+            this.guna2CirclePictureBox26.Location = new System.Drawing.Point(15, 99);
+            this.guna2CirclePictureBox26.Name = "guna2CirclePictureBox26";
+            this.guna2CirclePictureBox26.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox26.Size = new System.Drawing.Size(36, 36);
+            this.guna2CirclePictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox26.TabIndex = 17;
+            this.guna2CirclePictureBox26.TabStop = false;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(540, 249);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(32, 31);
+            this.guna2ImageButton1.TabIndex = 16;
+            this.guna2ImageButton1.UseTransparentBackground = true;
             // 
             // guna2GradientPanel1
             // 
@@ -664,6 +847,7 @@
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(129, 38);
             this.guna2GradientPanel1.TabIndex = 14;
+            this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint_1);
             // 
             // label33
             // 
@@ -693,6 +877,18 @@
             this.guna2Panel16.Name = "guna2Panel16";
             this.guna2Panel16.Size = new System.Drawing.Size(206, 48);
             this.guna2Panel16.TabIndex = 16;
+            // 
+            // guna2CirclePictureBox6
+            // 
+            this.guna2CirclePictureBox6.Image = global::zaro.Properties.Resources.avatar0110;
+            this.guna2CirclePictureBox6.ImageRotate = 0F;
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
+            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox6.TabIndex = 5;
+            this.guna2CirclePictureBox6.TabStop = false;
             // 
             // guna2Panel17
             // 
@@ -735,6 +931,24 @@
             this.label17.Size = new System.Drawing.Size(93, 15);
             this.label17.TabIndex = 7;
             this.label17.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox7
+            // 
+            this.guna2CirclePictureBox7.ImageRotate = 0F;
+            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
+            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox7.TabIndex = 10;
+            this.guna2CirclePictureBox7.TabStop = false;
+            // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox5.TabIndex = 5;
+            this.guna2PictureBox5.TabStop = false;
             // 
             // guna2Panel18
             // 
@@ -817,6 +1031,24 @@
             this.label22.TabIndex = 7;
             this.label22.Text = "Đào Duy Khiêm";
             // 
+            // guna2CirclePictureBox8
+            // 
+            this.guna2CirclePictureBox8.ImageRotate = 0F;
+            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
+            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox8.TabIndex = 10;
+            this.guna2CirclePictureBox8.TabStop = false;
+            // 
+            // guna2PictureBox6
+            // 
+            this.guna2PictureBox6.ImageRotate = 0F;
+            this.guna2PictureBox6.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox6.Name = "guna2PictureBox6";
+            this.guna2PictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox6.TabIndex = 5;
+            this.guna2PictureBox6.TabStop = false;
+            // 
             // guna2Panel21
             // 
             this.guna2Panel21.Location = new System.Drawing.Point(0, 51);
@@ -843,6 +1075,24 @@
             this.label24.Size = new System.Drawing.Size(93, 15);
             this.label24.TabIndex = 7;
             this.label24.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox9
+            // 
+            this.guna2CirclePictureBox9.ImageRotate = 0F;
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox9.TabIndex = 11;
+            this.guna2CirclePictureBox9.TabStop = false;
+            // 
+            // guna2PictureBox7
+            // 
+            this.guna2PictureBox7.ImageRotate = 0F;
+            this.guna2PictureBox7.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox7.Name = "guna2PictureBox7";
+            this.guna2PictureBox7.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox7.TabIndex = 5;
+            this.guna2PictureBox7.TabStop = false;
             // 
             // guna2Panel22
             // 
@@ -871,6 +1121,15 @@
             this.label26.TabIndex = 7;
             this.label26.Text = "Đào Duy Khiêm";
             // 
+            // guna2PictureBox8
+            // 
+            this.guna2PictureBox8.ImageRotate = 0F;
+            this.guna2PictureBox8.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox8.Name = "guna2PictureBox8";
+            this.guna2PictureBox8.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox8.TabIndex = 5;
+            this.guna2PictureBox8.TabStop = false;
+            // 
             // guna2Panel23
             // 
             this.guna2Panel23.Location = new System.Drawing.Point(0, 51);
@@ -892,6 +1151,18 @@
             this.guna2Panel24.Name = "guna2Panel24";
             this.guna2Panel24.Size = new System.Drawing.Size(206, 48);
             this.guna2Panel24.TabIndex = 17;
+            // 
+            // guna2CirclePictureBox10
+            // 
+            this.guna2CirclePictureBox10.Image = global::zaro.Properties.Resources.avatar031;
+            this.guna2CirclePictureBox10.ImageRotate = 0F;
+            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
+            this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox10.TabIndex = 5;
+            this.guna2CirclePictureBox10.TabStop = false;
             // 
             // guna2Panel25
             // 
@@ -934,6 +1205,24 @@
             this.label29.Size = new System.Drawing.Size(93, 15);
             this.label29.TabIndex = 7;
             this.label29.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox11
+            // 
+            this.guna2CirclePictureBox11.ImageRotate = 0F;
+            this.guna2CirclePictureBox11.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
+            this.guna2CirclePictureBox11.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox11.TabIndex = 10;
+            this.guna2CirclePictureBox11.TabStop = false;
+            // 
+            // guna2PictureBox9
+            // 
+            this.guna2PictureBox9.ImageRotate = 0F;
+            this.guna2PictureBox9.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox9.Name = "guna2PictureBox9";
+            this.guna2PictureBox9.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox9.TabIndex = 5;
+            this.guna2PictureBox9.TabStop = false;
             // 
             // guna2Panel26
             // 
@@ -1016,6 +1305,24 @@
             this.label37.TabIndex = 7;
             this.label37.Text = "Đào Duy Khiêm";
             // 
+            // guna2CirclePictureBox12
+            // 
+            this.guna2CirclePictureBox12.ImageRotate = 0F;
+            this.guna2CirclePictureBox12.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox12.Name = "guna2CirclePictureBox12";
+            this.guna2CirclePictureBox12.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox12.TabIndex = 10;
+            this.guna2CirclePictureBox12.TabStop = false;
+            // 
+            // guna2PictureBox10
+            // 
+            this.guna2PictureBox10.ImageRotate = 0F;
+            this.guna2PictureBox10.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox10.Name = "guna2PictureBox10";
+            this.guna2PictureBox10.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox10.TabIndex = 5;
+            this.guna2PictureBox10.TabStop = false;
+            // 
             // guna2Panel29
             // 
             this.guna2Panel29.Location = new System.Drawing.Point(0, 51);
@@ -1042,6 +1349,24 @@
             this.label39.Size = new System.Drawing.Size(93, 15);
             this.label39.TabIndex = 7;
             this.label39.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox13.TabIndex = 11;
+            this.guna2CirclePictureBox13.TabStop = false;
+            // 
+            // guna2PictureBox11
+            // 
+            this.guna2PictureBox11.ImageRotate = 0F;
+            this.guna2PictureBox11.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox11.Name = "guna2PictureBox11";
+            this.guna2PictureBox11.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox11.TabIndex = 5;
+            this.guna2PictureBox11.TabStop = false;
             // 
             // guna2Panel30
             // 
@@ -1070,6 +1395,15 @@
             this.label41.TabIndex = 7;
             this.label41.Text = "Lee Sang-hyeok";
             // 
+            // guna2PictureBox12
+            // 
+            this.guna2PictureBox12.ImageRotate = 0F;
+            this.guna2PictureBox12.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox12.Name = "guna2PictureBox12";
+            this.guna2PictureBox12.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox12.TabIndex = 5;
+            this.guna2PictureBox12.TabStop = false;
+            // 
             // guna2Panel31
             // 
             this.guna2Panel31.Location = new System.Drawing.Point(0, 51);
@@ -1091,6 +1425,18 @@
             this.guna2Panel32.Name = "guna2Panel32";
             this.guna2Panel32.Size = new System.Drawing.Size(206, 48);
             this.guna2Panel32.TabIndex = 18;
+            // 
+            // guna2CirclePictureBox14
+            // 
+            this.guna2CirclePictureBox14.Image = global::zaro.Properties.Resources.avatar0110;
+            this.guna2CirclePictureBox14.ImageRotate = 0F;
+            this.guna2CirclePictureBox14.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox14.Name = "guna2CirclePictureBox14";
+            this.guna2CirclePictureBox14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox14.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox14.TabIndex = 5;
+            this.guna2CirclePictureBox14.TabStop = false;
             // 
             // guna2Panel33
             // 
@@ -1133,6 +1479,24 @@
             this.label44.Size = new System.Drawing.Size(93, 15);
             this.label44.TabIndex = 7;
             this.label44.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox15
+            // 
+            this.guna2CirclePictureBox15.ImageRotate = 0F;
+            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
+            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox15.TabIndex = 10;
+            this.guna2CirclePictureBox15.TabStop = false;
+            // 
+            // guna2PictureBox13
+            // 
+            this.guna2PictureBox13.ImageRotate = 0F;
+            this.guna2PictureBox13.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox13.Name = "guna2PictureBox13";
+            this.guna2PictureBox13.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox13.TabIndex = 5;
+            this.guna2PictureBox13.TabStop = false;
             // 
             // guna2Panel34
             // 
@@ -1215,6 +1579,24 @@
             this.label49.TabIndex = 7;
             this.label49.Text = "Đào Duy Khiêm";
             // 
+            // guna2CirclePictureBox16
+            // 
+            this.guna2CirclePictureBox16.ImageRotate = 0F;
+            this.guna2CirclePictureBox16.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox16.Name = "guna2CirclePictureBox16";
+            this.guna2CirclePictureBox16.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox16.TabIndex = 10;
+            this.guna2CirclePictureBox16.TabStop = false;
+            // 
+            // guna2PictureBox14
+            // 
+            this.guna2PictureBox14.ImageRotate = 0F;
+            this.guna2PictureBox14.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox14.Name = "guna2PictureBox14";
+            this.guna2PictureBox14.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox14.TabIndex = 5;
+            this.guna2PictureBox14.TabStop = false;
+            // 
             // guna2Panel37
             // 
             this.guna2Panel37.Location = new System.Drawing.Point(0, 51);
@@ -1241,6 +1623,24 @@
             this.label51.Size = new System.Drawing.Size(93, 15);
             this.label51.TabIndex = 7;
             this.label51.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox17
+            // 
+            this.guna2CirclePictureBox17.ImageRotate = 0F;
+            this.guna2CirclePictureBox17.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox17.Name = "guna2CirclePictureBox17";
+            this.guna2CirclePictureBox17.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox17.TabIndex = 11;
+            this.guna2CirclePictureBox17.TabStop = false;
+            // 
+            // guna2PictureBox15
+            // 
+            this.guna2PictureBox15.ImageRotate = 0F;
+            this.guna2PictureBox15.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox15.Name = "guna2PictureBox15";
+            this.guna2PictureBox15.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox15.TabIndex = 5;
+            this.guna2PictureBox15.TabStop = false;
             // 
             // guna2Panel38
             // 
@@ -1269,6 +1669,15 @@
             this.label53.TabIndex = 7;
             this.label53.Text = "Đào Duy Khiêm";
             // 
+            // guna2PictureBox16
+            // 
+            this.guna2PictureBox16.ImageRotate = 0F;
+            this.guna2PictureBox16.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox16.Name = "guna2PictureBox16";
+            this.guna2PictureBox16.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox16.TabIndex = 5;
+            this.guna2PictureBox16.TabStop = false;
+            // 
             // guna2Panel39
             // 
             this.guna2Panel39.Location = new System.Drawing.Point(0, 51);
@@ -1290,6 +1699,18 @@
             this.guna2Panel40.Name = "guna2Panel40";
             this.guna2Panel40.Size = new System.Drawing.Size(206, 48);
             this.guna2Panel40.TabIndex = 17;
+            // 
+            // guna2CirclePictureBox18
+            // 
+            this.guna2CirclePictureBox18.Image = global::zaro.Properties.Resources.avatar0110;
+            this.guna2CirclePictureBox18.ImageRotate = 0F;
+            this.guna2CirclePictureBox18.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox18.Name = "guna2CirclePictureBox18";
+            this.guna2CirclePictureBox18.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox18.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox18.TabIndex = 5;
+            this.guna2CirclePictureBox18.TabStop = false;
             // 
             // guna2Panel41
             // 
@@ -1332,6 +1753,24 @@
             this.label56.Size = new System.Drawing.Size(93, 15);
             this.label56.TabIndex = 7;
             this.label56.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox19
+            // 
+            this.guna2CirclePictureBox19.ImageRotate = 0F;
+            this.guna2CirclePictureBox19.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox19.Name = "guna2CirclePictureBox19";
+            this.guna2CirclePictureBox19.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox19.TabIndex = 10;
+            this.guna2CirclePictureBox19.TabStop = false;
+            // 
+            // guna2PictureBox17
+            // 
+            this.guna2PictureBox17.ImageRotate = 0F;
+            this.guna2PictureBox17.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox17.Name = "guna2PictureBox17";
+            this.guna2PictureBox17.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox17.TabIndex = 5;
+            this.guna2PictureBox17.TabStop = false;
             // 
             // guna2Panel42
             // 
@@ -1414,6 +1853,24 @@
             this.label61.TabIndex = 7;
             this.label61.Text = "Đào Duy Khiêm";
             // 
+            // guna2CirclePictureBox20
+            // 
+            this.guna2CirclePictureBox20.ImageRotate = 0F;
+            this.guna2CirclePictureBox20.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox20.Name = "guna2CirclePictureBox20";
+            this.guna2CirclePictureBox20.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox20.TabIndex = 10;
+            this.guna2CirclePictureBox20.TabStop = false;
+            // 
+            // guna2PictureBox18
+            // 
+            this.guna2PictureBox18.ImageRotate = 0F;
+            this.guna2PictureBox18.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox18.Name = "guna2PictureBox18";
+            this.guna2PictureBox18.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox18.TabIndex = 5;
+            this.guna2PictureBox18.TabStop = false;
+            // 
             // guna2Panel45
             // 
             this.guna2Panel45.Location = new System.Drawing.Point(0, 51);
@@ -1440,6 +1897,24 @@
             this.label63.Size = new System.Drawing.Size(93, 15);
             this.label63.TabIndex = 7;
             this.label63.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox21
+            // 
+            this.guna2CirclePictureBox21.ImageRotate = 0F;
+            this.guna2CirclePictureBox21.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox21.Name = "guna2CirclePictureBox21";
+            this.guna2CirclePictureBox21.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox21.TabIndex = 11;
+            this.guna2CirclePictureBox21.TabStop = false;
+            // 
+            // guna2PictureBox19
+            // 
+            this.guna2PictureBox19.ImageRotate = 0F;
+            this.guna2PictureBox19.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox19.Name = "guna2PictureBox19";
+            this.guna2PictureBox19.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox19.TabIndex = 5;
+            this.guna2PictureBox19.TabStop = false;
             // 
             // guna2Panel46
             // 
@@ -1468,6 +1943,15 @@
             this.label65.TabIndex = 7;
             this.label65.Text = "Đào Duy Khiêm";
             // 
+            // guna2PictureBox20
+            // 
+            this.guna2PictureBox20.ImageRotate = 0F;
+            this.guna2PictureBox20.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox20.Name = "guna2PictureBox20";
+            this.guna2PictureBox20.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox20.TabIndex = 5;
+            this.guna2PictureBox20.TabStop = false;
+            // 
             // guna2Panel47
             // 
             this.guna2Panel47.Location = new System.Drawing.Point(0, 51);
@@ -1489,6 +1973,18 @@
             this.guna2Panel48.Name = "guna2Panel48";
             this.guna2Panel48.Size = new System.Drawing.Size(206, 48);
             this.guna2Panel48.TabIndex = 17;
+            // 
+            // guna2CirclePictureBox22
+            // 
+            this.guna2CirclePictureBox22.Image = global::zaro.Properties.Resources.avatar0110;
+            this.guna2CirclePictureBox22.ImageRotate = 0F;
+            this.guna2CirclePictureBox22.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox22.Name = "guna2CirclePictureBox22";
+            this.guna2CirclePictureBox22.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox22.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox22.TabIndex = 5;
+            this.guna2CirclePictureBox22.TabStop = false;
             // 
             // guna2Panel49
             // 
@@ -1531,6 +2027,24 @@
             this.label68.Size = new System.Drawing.Size(93, 15);
             this.label68.TabIndex = 7;
             this.label68.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox23
+            // 
+            this.guna2CirclePictureBox23.ImageRotate = 0F;
+            this.guna2CirclePictureBox23.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox23.Name = "guna2CirclePictureBox23";
+            this.guna2CirclePictureBox23.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox23.TabIndex = 10;
+            this.guna2CirclePictureBox23.TabStop = false;
+            // 
+            // guna2PictureBox21
+            // 
+            this.guna2PictureBox21.ImageRotate = 0F;
+            this.guna2PictureBox21.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox21.Name = "guna2PictureBox21";
+            this.guna2PictureBox21.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox21.TabIndex = 5;
+            this.guna2PictureBox21.TabStop = false;
             // 
             // guna2Panel50
             // 
@@ -1613,6 +2127,24 @@
             this.label73.TabIndex = 7;
             this.label73.Text = "Đào Duy Khiêm";
             // 
+            // guna2CirclePictureBox24
+            // 
+            this.guna2CirclePictureBox24.ImageRotate = 0F;
+            this.guna2CirclePictureBox24.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox24.Name = "guna2CirclePictureBox24";
+            this.guna2CirclePictureBox24.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox24.TabIndex = 10;
+            this.guna2CirclePictureBox24.TabStop = false;
+            // 
+            // guna2PictureBox22
+            // 
+            this.guna2PictureBox22.ImageRotate = 0F;
+            this.guna2PictureBox22.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox22.Name = "guna2PictureBox22";
+            this.guna2PictureBox22.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox22.TabIndex = 5;
+            this.guna2PictureBox22.TabStop = false;
+            // 
             // guna2Panel53
             // 
             this.guna2Panel53.Location = new System.Drawing.Point(0, 51);
@@ -1639,6 +2171,24 @@
             this.label75.Size = new System.Drawing.Size(93, 15);
             this.label75.TabIndex = 7;
             this.label75.Text = "Đào Duy Khiêm";
+            // 
+            // guna2CirclePictureBox25
+            // 
+            this.guna2CirclePictureBox25.ImageRotate = 0F;
+            this.guna2CirclePictureBox25.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox25.Name = "guna2CirclePictureBox25";
+            this.guna2CirclePictureBox25.Size = new System.Drawing.Size(64, 64);
+            this.guna2CirclePictureBox25.TabIndex = 11;
+            this.guna2CirclePictureBox25.TabStop = false;
+            // 
+            // guna2PictureBox23
+            // 
+            this.guna2PictureBox23.ImageRotate = 0F;
+            this.guna2PictureBox23.Location = new System.Drawing.Point(7, -158);
+            this.guna2PictureBox23.Name = "guna2PictureBox23";
+            this.guna2PictureBox23.Size = new System.Drawing.Size(30, 30);
+            this.guna2PictureBox23.TabIndex = 5;
+            this.guna2PictureBox23.TabStop = false;
             // 
             // guna2Panel54
             // 
@@ -1667,79 +2217,6 @@
             this.label77.TabIndex = 7;
             this.label77.Text = "Đào Duy Khiêm";
             // 
-            // guna2Panel55
-            // 
-            this.guna2Panel55.Location = new System.Drawing.Point(0, 51);
-            this.guna2Panel55.Name = "guna2Panel55";
-            this.guna2Panel55.Size = new System.Drawing.Size(206, 52);
-            this.guna2Panel55.TabIndex = 4;
-            // 
-            // guna2CirclePictureBox22
-            // 
-            this.guna2CirclePictureBox22.Image = global::zaro.Properties.Resources.avatar0110;
-            this.guna2CirclePictureBox22.ImageRotate = 0F;
-            this.guna2CirclePictureBox22.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox22.Name = "guna2CirclePictureBox22";
-            this.guna2CirclePictureBox22.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox22.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox22.TabIndex = 5;
-            this.guna2CirclePictureBox22.TabStop = false;
-            // 
-            // guna2CirclePictureBox23
-            // 
-            this.guna2CirclePictureBox23.ImageRotate = 0F;
-            this.guna2CirclePictureBox23.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox23.Name = "guna2CirclePictureBox23";
-            this.guna2CirclePictureBox23.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox23.TabIndex = 10;
-            this.guna2CirclePictureBox23.TabStop = false;
-            // 
-            // guna2PictureBox21
-            // 
-            this.guna2PictureBox21.ImageRotate = 0F;
-            this.guna2PictureBox21.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox21.Name = "guna2PictureBox21";
-            this.guna2PictureBox21.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox21.TabIndex = 5;
-            this.guna2PictureBox21.TabStop = false;
-            // 
-            // guna2CirclePictureBox24
-            // 
-            this.guna2CirclePictureBox24.ImageRotate = 0F;
-            this.guna2CirclePictureBox24.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox24.Name = "guna2CirclePictureBox24";
-            this.guna2CirclePictureBox24.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox24.TabIndex = 10;
-            this.guna2CirclePictureBox24.TabStop = false;
-            // 
-            // guna2PictureBox22
-            // 
-            this.guna2PictureBox22.ImageRotate = 0F;
-            this.guna2PictureBox22.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox22.Name = "guna2PictureBox22";
-            this.guna2PictureBox22.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox22.TabIndex = 5;
-            this.guna2PictureBox22.TabStop = false;
-            // 
-            // guna2CirclePictureBox25
-            // 
-            this.guna2CirclePictureBox25.ImageRotate = 0F;
-            this.guna2CirclePictureBox25.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox25.Name = "guna2CirclePictureBox25";
-            this.guna2CirclePictureBox25.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox25.TabIndex = 11;
-            this.guna2CirclePictureBox25.TabStop = false;
-            // 
-            // guna2PictureBox23
-            // 
-            this.guna2PictureBox23.ImageRotate = 0F;
-            this.guna2PictureBox23.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox23.Name = "guna2PictureBox23";
-            this.guna2PictureBox23.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox23.TabIndex = 5;
-            this.guna2PictureBox23.TabStop = false;
-            // 
             // guna2PictureBox24
             // 
             this.guna2PictureBox24.ImageRotate = 0F;
@@ -1749,453 +2226,18 @@
             this.guna2PictureBox24.TabIndex = 5;
             this.guna2PictureBox24.TabStop = false;
             // 
-            // guna2CirclePictureBox18
-            // 
-            this.guna2CirclePictureBox18.Image = global::zaro.Properties.Resources.avatar0110;
-            this.guna2CirclePictureBox18.ImageRotate = 0F;
-            this.guna2CirclePictureBox18.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox18.Name = "guna2CirclePictureBox18";
-            this.guna2CirclePictureBox18.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox18.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox18.TabIndex = 5;
-            this.guna2CirclePictureBox18.TabStop = false;
-            // 
-            // guna2CirclePictureBox19
-            // 
-            this.guna2CirclePictureBox19.ImageRotate = 0F;
-            this.guna2CirclePictureBox19.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox19.Name = "guna2CirclePictureBox19";
-            this.guna2CirclePictureBox19.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox19.TabIndex = 10;
-            this.guna2CirclePictureBox19.TabStop = false;
-            // 
-            // guna2PictureBox17
-            // 
-            this.guna2PictureBox17.ImageRotate = 0F;
-            this.guna2PictureBox17.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox17.Name = "guna2PictureBox17";
-            this.guna2PictureBox17.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox17.TabIndex = 5;
-            this.guna2PictureBox17.TabStop = false;
-            // 
-            // guna2CirclePictureBox20
-            // 
-            this.guna2CirclePictureBox20.ImageRotate = 0F;
-            this.guna2CirclePictureBox20.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox20.Name = "guna2CirclePictureBox20";
-            this.guna2CirclePictureBox20.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox20.TabIndex = 10;
-            this.guna2CirclePictureBox20.TabStop = false;
-            // 
-            // guna2PictureBox18
-            // 
-            this.guna2PictureBox18.ImageRotate = 0F;
-            this.guna2PictureBox18.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox18.Name = "guna2PictureBox18";
-            this.guna2PictureBox18.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox18.TabIndex = 5;
-            this.guna2PictureBox18.TabStop = false;
-            // 
-            // guna2CirclePictureBox21
-            // 
-            this.guna2CirclePictureBox21.ImageRotate = 0F;
-            this.guna2CirclePictureBox21.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox21.Name = "guna2CirclePictureBox21";
-            this.guna2CirclePictureBox21.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox21.TabIndex = 11;
-            this.guna2CirclePictureBox21.TabStop = false;
-            // 
-            // guna2PictureBox19
-            // 
-            this.guna2PictureBox19.ImageRotate = 0F;
-            this.guna2PictureBox19.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox19.Name = "guna2PictureBox19";
-            this.guna2PictureBox19.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox19.TabIndex = 5;
-            this.guna2PictureBox19.TabStop = false;
-            // 
-            // guna2PictureBox20
-            // 
-            this.guna2PictureBox20.ImageRotate = 0F;
-            this.guna2PictureBox20.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox20.Name = "guna2PictureBox20";
-            this.guna2PictureBox20.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox20.TabIndex = 5;
-            this.guna2PictureBox20.TabStop = false;
-            // 
-            // guna2CirclePictureBox14
-            // 
-            this.guna2CirclePictureBox14.Image = global::zaro.Properties.Resources.avatar0110;
-            this.guna2CirclePictureBox14.ImageRotate = 0F;
-            this.guna2CirclePictureBox14.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox14.Name = "guna2CirclePictureBox14";
-            this.guna2CirclePictureBox14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox14.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox14.TabIndex = 5;
-            this.guna2CirclePictureBox14.TabStop = false;
-            // 
-            // guna2CirclePictureBox15
-            // 
-            this.guna2CirclePictureBox15.ImageRotate = 0F;
-            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
-            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox15.TabIndex = 10;
-            this.guna2CirclePictureBox15.TabStop = false;
-            // 
-            // guna2PictureBox13
-            // 
-            this.guna2PictureBox13.ImageRotate = 0F;
-            this.guna2PictureBox13.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox13.Name = "guna2PictureBox13";
-            this.guna2PictureBox13.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox13.TabIndex = 5;
-            this.guna2PictureBox13.TabStop = false;
-            // 
-            // guna2CirclePictureBox16
-            // 
-            this.guna2CirclePictureBox16.ImageRotate = 0F;
-            this.guna2CirclePictureBox16.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox16.Name = "guna2CirclePictureBox16";
-            this.guna2CirclePictureBox16.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox16.TabIndex = 10;
-            this.guna2CirclePictureBox16.TabStop = false;
-            // 
-            // guna2PictureBox14
-            // 
-            this.guna2PictureBox14.ImageRotate = 0F;
-            this.guna2PictureBox14.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox14.Name = "guna2PictureBox14";
-            this.guna2PictureBox14.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox14.TabIndex = 5;
-            this.guna2PictureBox14.TabStop = false;
-            // 
-            // guna2CirclePictureBox17
-            // 
-            this.guna2CirclePictureBox17.ImageRotate = 0F;
-            this.guna2CirclePictureBox17.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox17.Name = "guna2CirclePictureBox17";
-            this.guna2CirclePictureBox17.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox17.TabIndex = 11;
-            this.guna2CirclePictureBox17.TabStop = false;
-            // 
-            // guna2PictureBox15
-            // 
-            this.guna2PictureBox15.ImageRotate = 0F;
-            this.guna2PictureBox15.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox15.Name = "guna2PictureBox15";
-            this.guna2PictureBox15.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox15.TabIndex = 5;
-            this.guna2PictureBox15.TabStop = false;
-            // 
-            // guna2PictureBox16
-            // 
-            this.guna2PictureBox16.ImageRotate = 0F;
-            this.guna2PictureBox16.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox16.Name = "guna2PictureBox16";
-            this.guna2PictureBox16.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox16.TabIndex = 5;
-            this.guna2PictureBox16.TabStop = false;
-            // 
-            // guna2CirclePictureBox10
-            // 
-            this.guna2CirclePictureBox10.Image = global::zaro.Properties.Resources.avatar031;
-            this.guna2CirclePictureBox10.ImageRotate = 0F;
-            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
-            this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox10.TabIndex = 5;
-            this.guna2CirclePictureBox10.TabStop = false;
-            // 
-            // guna2CirclePictureBox11
-            // 
-            this.guna2CirclePictureBox11.ImageRotate = 0F;
-            this.guna2CirclePictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
-            this.guna2CirclePictureBox11.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox11.TabIndex = 10;
-            this.guna2CirclePictureBox11.TabStop = false;
-            // 
-            // guna2PictureBox9
-            // 
-            this.guna2PictureBox9.ImageRotate = 0F;
-            this.guna2PictureBox9.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox9.Name = "guna2PictureBox9";
-            this.guna2PictureBox9.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox9.TabIndex = 5;
-            this.guna2PictureBox9.TabStop = false;
-            // 
-            // guna2CirclePictureBox12
-            // 
-            this.guna2CirclePictureBox12.ImageRotate = 0F;
-            this.guna2CirclePictureBox12.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox12.Name = "guna2CirclePictureBox12";
-            this.guna2CirclePictureBox12.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox12.TabIndex = 10;
-            this.guna2CirclePictureBox12.TabStop = false;
-            // 
-            // guna2PictureBox10
-            // 
-            this.guna2PictureBox10.ImageRotate = 0F;
-            this.guna2PictureBox10.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox10.Name = "guna2PictureBox10";
-            this.guna2PictureBox10.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox10.TabIndex = 5;
-            this.guna2PictureBox10.TabStop = false;
-            // 
-            // guna2CirclePictureBox13
-            // 
-            this.guna2CirclePictureBox13.ImageRotate = 0F;
-            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
-            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox13.TabIndex = 11;
-            this.guna2CirclePictureBox13.TabStop = false;
-            // 
-            // guna2PictureBox11
-            // 
-            this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox11.Name = "guna2PictureBox11";
-            this.guna2PictureBox11.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox11.TabIndex = 5;
-            this.guna2PictureBox11.TabStop = false;
-            // 
-            // guna2PictureBox12
-            // 
-            this.guna2PictureBox12.ImageRotate = 0F;
-            this.guna2PictureBox12.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox12.Name = "guna2PictureBox12";
-            this.guna2PictureBox12.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox12.TabIndex = 5;
-            this.guna2PictureBox12.TabStop = false;
-            // 
-            // guna2CirclePictureBox6
-            // 
-            this.guna2CirclePictureBox6.Image = global::zaro.Properties.Resources.avatar0110;
-            this.guna2CirclePictureBox6.ImageRotate = 0F;
-            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
-            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox6.TabIndex = 5;
-            this.guna2CirclePictureBox6.TabStop = false;
-            // 
-            // guna2CirclePictureBox7
-            // 
-            this.guna2CirclePictureBox7.ImageRotate = 0F;
-            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
-            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox7.TabIndex = 10;
-            this.guna2CirclePictureBox7.TabStop = false;
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox5.TabIndex = 5;
-            this.guna2PictureBox5.TabStop = false;
-            // 
-            // guna2CirclePictureBox8
-            // 
-            this.guna2CirclePictureBox8.ImageRotate = 0F;
-            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
-            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox8.TabIndex = 10;
-            this.guna2CirclePictureBox8.TabStop = false;
-            // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox6.TabIndex = 5;
-            this.guna2PictureBox6.TabStop = false;
-            // 
-            // guna2CirclePictureBox9
-            // 
-            this.guna2CirclePictureBox9.ImageRotate = 0F;
-            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
-            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox9.TabIndex = 11;
-            this.guna2CirclePictureBox9.TabStop = false;
-            // 
-            // guna2PictureBox7
-            // 
-            this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox7.TabIndex = 5;
-            this.guna2PictureBox7.TabStop = false;
-            // 
-            // guna2PictureBox8
-            // 
-            this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox8.Name = "guna2PictureBox8";
-            this.guna2PictureBox8.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox8.TabIndex = 5;
-            this.guna2PictureBox8.TabStop = false;
-            // 
-            // guna2CirclePictureBox26
-            // 
-            this.guna2CirclePictureBox26.Image = global::zaro.Properties.Resources.avatar018;
-            this.guna2CirclePictureBox26.ImageRotate = 0F;
-            this.guna2CirclePictureBox26.Location = new System.Drawing.Point(15, 99);
-            this.guna2CirclePictureBox26.Name = "guna2CirclePictureBox26";
-            this.guna2CirclePictureBox26.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox26.Size = new System.Drawing.Size(36, 36);
-            this.guna2CirclePictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox26.TabIndex = 17;
-            this.guna2CirclePictureBox26.TabStop = false;
-            // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(536, 251);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 34);
-            this.guna2ImageButton1.TabIndex = 16;
-            this.guna2ImageButton1.UseTransparentBackground = true;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.Image = global::zaro.Properties.Resources.avatar019;
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox2.TabIndex = 5;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
-            // guna2CirclePictureBox5
-            // 
-            this.guna2CirclePictureBox5.ImageRotate = 0F;
-            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
-            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox5.TabIndex = 10;
-            this.guna2CirclePictureBox5.TabStop = false;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox4.TabIndex = 5;
-            this.guna2PictureBox4.TabStop = false;
-            // 
-            // guna2CirclePictureBox4
-            // 
-            this.guna2CirclePictureBox4.ImageRotate = 0F;
-            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
-            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox4.TabIndex = 10;
-            this.guna2CirclePictureBox4.TabStop = false;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox3.TabIndex = 5;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox3.TabIndex = 11;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox2.TabIndex = 5;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox1.TabIndex = 5;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = global::zaro.Properties.Resources.avatar017;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(14, 4);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(45, 45);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 4;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
-            this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(4, 0);
-            this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(13, 13);
-            this.guna2TextBox1.Location = new System.Drawing.Point(3, 27);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Tìm kiếm trên Zaro Messages";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(200, 22);
-            this.guna2TextBox1.TabIndex = 1;
+            // guna2Panel55
+            // 
+            this.guna2Panel55.Location = new System.Drawing.Point(0, 51);
+            this.guna2Panel55.Name = "guna2Panel55";
+            this.guna2Panel55.Size = new System.Drawing.Size(206, 52);
+            this.guna2Panel55.TabIndex = 4;
             // 
             // ZaroMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 393);
+            this.ClientSize = new System.Drawing.Size(784, 388);
             this.Controls.Add(this.guna2Panel48);
             this.Controls.Add(this.guna2Panel40);
             this.Controls.Add(this.guna2Panel32);
@@ -2215,109 +2257,109 @@
             this.guna2Panel2.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.guna2Panel14.ResumeLayout(false);
             this.guna2Panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
             this.guna2Panel12.ResumeLayout(false);
             this.guna2Panel12.PerformLayout();
-            this.guna2GradientPanel2.ResumeLayout(false);
-            this.guna2GradientPanel2.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
-            this.guna2Panel16.ResumeLayout(false);
-            this.guna2Panel16.PerformLayout();
-            this.guna2Panel17.ResumeLayout(false);
-            this.guna2Panel17.PerformLayout();
-            this.guna2Panel19.ResumeLayout(false);
-            this.guna2Panel19.PerformLayout();
-            this.guna2Panel20.ResumeLayout(false);
-            this.guna2Panel20.PerformLayout();
-            this.guna2Panel24.ResumeLayout(false);
-            this.guna2Panel24.PerformLayout();
-            this.guna2Panel25.ResumeLayout(false);
-            this.guna2Panel25.PerformLayout();
-            this.guna2Panel27.ResumeLayout(false);
-            this.guna2Panel27.PerformLayout();
-            this.guna2Panel28.ResumeLayout(false);
-            this.guna2Panel28.PerformLayout();
-            this.guna2Panel32.ResumeLayout(false);
-            this.guna2Panel32.PerformLayout();
-            this.guna2Panel33.ResumeLayout(false);
-            this.guna2Panel33.PerformLayout();
-            this.guna2Panel35.ResumeLayout(false);
-            this.guna2Panel35.PerformLayout();
-            this.guna2Panel36.ResumeLayout(false);
-            this.guna2Panel36.PerformLayout();
-            this.guna2Panel40.ResumeLayout(false);
-            this.guna2Panel40.PerformLayout();
-            this.guna2Panel41.ResumeLayout(false);
-            this.guna2Panel41.PerformLayout();
-            this.guna2Panel43.ResumeLayout(false);
-            this.guna2Panel43.PerformLayout();
-            this.guna2Panel44.ResumeLayout(false);
-            this.guna2Panel44.PerformLayout();
-            this.guna2Panel48.ResumeLayout(false);
-            this.guna2Panel48.PerformLayout();
-            this.guna2Panel49.ResumeLayout(false);
-            this.guna2Panel49.PerformLayout();
-            this.guna2Panel51.ResumeLayout(false);
-            this.guna2Panel51.PerformLayout();
-            this.guna2Panel52.ResumeLayout(false);
-            this.guna2Panel52.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.guna2GradientPanel2.ResumeLayout(false);
+            this.guna2GradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox26)).EndInit();
+            this.guna2GradientPanel1.ResumeLayout(false);
+            this.guna2GradientPanel1.PerformLayout();
+            this.guna2Panel16.ResumeLayout(false);
+            this.guna2Panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
+            this.guna2Panel17.ResumeLayout(false);
+            this.guna2Panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
+            this.guna2Panel19.ResumeLayout(false);
+            this.guna2Panel19.PerformLayout();
+            this.guna2Panel20.ResumeLayout(false);
+            this.guna2Panel20.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
+            this.guna2Panel24.ResumeLayout(false);
+            this.guna2Panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
+            this.guna2Panel25.ResumeLayout(false);
+            this.guna2Panel25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
+            this.guna2Panel27.ResumeLayout(false);
+            this.guna2Panel27.PerformLayout();
+            this.guna2Panel28.ResumeLayout(false);
+            this.guna2Panel28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
+            this.guna2Panel32.ResumeLayout(false);
+            this.guna2Panel32.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
+            this.guna2Panel33.ResumeLayout(false);
+            this.guna2Panel33.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
+            this.guna2Panel35.ResumeLayout(false);
+            this.guna2Panel35.PerformLayout();
+            this.guna2Panel36.ResumeLayout(false);
+            this.guna2Panel36.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
+            this.guna2Panel40.ResumeLayout(false);
+            this.guna2Panel40.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox18)).EndInit();
+            this.guna2Panel41.ResumeLayout(false);
+            this.guna2Panel41.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).EndInit();
+            this.guna2Panel43.ResumeLayout(false);
+            this.guna2Panel43.PerformLayout();
+            this.guna2Panel44.ResumeLayout(false);
+            this.guna2Panel44.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).EndInit();
+            this.guna2Panel48.ResumeLayout(false);
+            this.guna2Panel48.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).EndInit();
+            this.guna2Panel49.ResumeLayout(false);
+            this.guna2Panel49.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).EndInit();
+            this.guna2Panel51.ResumeLayout(false);
+            this.guna2Panel51.PerformLayout();
+            this.guna2Panel52.ResumeLayout(false);
+            this.guna2Panel52.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2364,11 +2406,9 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
@@ -2513,5 +2553,9 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox24;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel55;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox26;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+        private System.Windows.Forms.Label label34;
     }
 }
