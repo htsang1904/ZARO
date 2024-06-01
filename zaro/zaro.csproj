@@ -133,6 +133,12 @@
   <ItemGroup>
     <Compile Include="Classes\FbClient.cs" />
     <Compile Include="Classes\registerInfo.cs" />
+    <Compile Include="Forms\friend connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\friend connection.Designer.cs">
+      <DependentUpon>friend connection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\homepage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +171,9 @@
     <Compile Include="Forms\splash_screen.Designer.cs">
       <DependentUpon>splash_screen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\friend connection.resx">
+      <DependentUpon>friend connection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\homepage.resx">
       <DependentUpon>homepage.cs</DependentUpon>
     </EmbeddedResource>
