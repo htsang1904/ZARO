@@ -1,5 +1,9 @@
-﻿using Firebase.Database;
+﻿using Firebase.Auth.Providers;
+using Firebase.Auth.Repository;
+using Firebase.Auth;
+using Firebase.Database;
 using Firebase.Database.Query;
+using FirebaseAdmin.Auth;
 using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
@@ -11,6 +15,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using zaro.Classes;
+using zaro.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace zaro
 {
@@ -20,10 +26,13 @@ namespace zaro
 
         private FirebaseClient client;
 
+        private FirebaseAuthClient authClient;
         public login()
         {
             InitializeComponent();
             client = FbClient.FClient;
+
+            authClient = FbAuth.authClient;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -50,30 +59,53 @@ namespace zaro
         {
             if (string.IsNullOrEmpty(txtLogUsername.Text) || string.IsNullOrEmpty(txtLogPass.Text) )
             {
-                guna2MessageDialog1.Text = "Vui lòng điền đầy đủ thông tin";
-                guna2MessageDialog1.Caption = "Lỗi";
-                guna2MessageDialog1.Show();
+                showMessage("Vui lòng điền đầy đủ thông tin", "Thông báo", "Error", "Light");
                 return;
             }
             var username = txtLogUsername.Text.Trim();
             var password = txtLogPass.Text.Trim();
-            var data = await client.Child("Users").OrderBy("phoneNumber").EqualTo(username).OnceAsync<registerInfo>();
-            if (data.Count > 0) 
+            try
             {
-                var user = data.First().Object;
-                if (user.password == password)
-                {
-                    MessageBox.Show("Đăng nhập thành công");
-                }
-                else
-                {
-                    MessageBox.Show("Mật khẩu không chính xác");
-                }
+                var userCredential = await authClient.SignInWithEmailAndPasswordAsync(username, password);
+
+                var user = userCredential.User;
+                var refreshToken = user.Credential.RefreshToken;
+                var token = await user.GetIdTokenAsync();
+                var displayName = user.Info.DisplayName;
+                var uid = user.Uid;
+                showMessage($"Đăng nhập thành công!", "Thông báo", "Information", "Light");
             }
-            else
+            catch (FirebaseAuthHttpException ex)
             {
-                MessageBox.Show("Thông tin đăng kí không chính xác");
-            }    
+                showMessage($"Thông tin tài khoản không chính xác!", "Thông báo", "Information", "Light");
+            }
+            catch (Exception ex)
+            {
+                showMessage($"Đã xảy ra lỗi: {ex.Message}", "Thông báo", "Error", "Light");
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            reset_password resetPassword = new reset_password();
+            resetPassword.Show();
+        }
+
+       
+        public void showMessage(string message, string caption, string icon, string style)
+        {
+            guna2MessageDialog1.Text = message;
+            guna2MessageDialog1.Caption = caption;
+
+            if (Enum.TryParse(icon, out MessageDialogIcon iconEnum))
+            {
+                guna2MessageDialog1.Icon = iconEnum;
+            }
+            if (Enum.TryParse(style, out MessageDialogStyle styleEnum))
+            {
+                guna2MessageDialog1.Style = styleEnum;
+            }
+            guna2MessageDialog1.Show();
         }
     }
 }

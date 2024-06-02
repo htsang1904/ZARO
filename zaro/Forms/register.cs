@@ -19,6 +19,9 @@ using System.Web.Configuration;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using Firebase.Database.Query;
 using System.Net;
+using Firebase.Auth;
+using Firebase.Auth.Providers;
+using Firebase.Auth.Repository;
 
 namespace zaro
 {
@@ -28,11 +31,14 @@ namespace zaro
         bool isPasswordConfirmVisible = false;
         private IFirebaseClient FsharpClient;
         private Firebase.Database.FirebaseClient FClient;
+        
+        private FirebaseAuthClient authClient;
         public Register()
         {
             InitializeComponent();
             FsharpClient = FbClient.FsharpClient;
             FClient = FbClient.FClient;
+            authClient = FbAuth.authClient;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -45,15 +51,9 @@ namespace zaro
 
         private async void guna2Button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtRegPhone.Text) || string.IsNullOrEmpty(txtRegMail.Text) || string.IsNullOrEmpty(txtRegPass.Text) || string.IsNullOrEmpty(txtRegPassConfirm.Text)) 
+            if (string.IsNullOrEmpty(txtRegMail.Text) || string.IsNullOrEmpty(txtRegPass.Text) || string.IsNullOrEmpty(txtRegPassConfirm.Text)) 
             {
                 showMessage("Vui lòng điền đầy đủ thông tin", "Thông báo", "Properties.Resources.eyes_open_icon", "Light");
-                return;
-            }
-            
-            if (!IsValidPhoneNumber(txtRegPhone.Text))
-            {
-                showMessage("Số điện thoại không đúng", "Thông báo", "Error", "Light");
                 return;
             }
 
@@ -64,27 +64,12 @@ namespace zaro
             }
             if (!IsValidPassword()) return;
 
-            if(await IsUserExist(txtRegPhone.Text.Trim()))
+            if(await IsUserExist(txtRegMail.Text.Trim()))
             {
-                showMessage("Số điện thoại đã tồn tại", "Thông báo", "Error", "Light");
+                showMessage("Tài khoản đã được đăng ký", "Thông báo", "Error", "Light");
                 return;
             }
-
-            var register = new registerInfo()
-            {
-                email = txtRegMail.Text,
-                phoneNumber = txtRegPhone.Text,
-                password = txtRegPass.Text,
-            };
-
-
-            SetResponse response = FsharpClient.Set("Users/" + txtRegPhone.Text, register);
-            registerInfo res = response.ResultAs<registerInfo>();
-            if (res != null)
-            {
-                showMessage("Chúc mừng bạn đã đăng ký thành công!", "Thông báo", "None", "Light");
-                resetData();
-            }
+            RegisterUser(txtRegMail.Text, txtRegPass.Text);
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -156,7 +141,7 @@ namespace zaro
         {
             var userSnapshot = await FClient
                 .Child("Users")
-                .OrderBy("phoneNumber")
+                .OrderBy("email")
                 .EqualTo(username)
                 .OnceAsync<registerInfo>();
             var userData = userSnapshot.FirstOrDefault()?.Object;
@@ -168,13 +153,34 @@ namespace zaro
             {
                 return false;
             }
-           
-           
         }
-
+        private async void RegisterUser(string email, string password)
+        {
+            try
+            {
+                var userCredential = await authClient.CreateUserWithEmailAndPasswordAsync(email, password);
+                showMessage("Chúc mừng bạn đã đăng ký thành công!", "Thông báo", "None", "Light");
+                resetData();
+            }
+            catch (FirebaseAuthHttpException ex)
+            {
+                if(ex.Reason.ToString() == "EmailExists")
+                {
+                    showMessage("Tài khoản đã được đăng ký", "Thông báo", "Error", "Light");
+                }
+                else
+                {
+                    showMessage($"Lỗi xác thực Firebase: {ex.Reason}", "Lỗi", "Error", "Light");
+                    Console.WriteLine(ex.Reason.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                showMessage($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", "Error", "Light");
+            }
+        }
         public void resetData()
         {
-            txtRegPhone.Clear();
             txtRegMail.Clear();
             txtRegPass.Clear();
             txtRegPassConfirm.Clear();
