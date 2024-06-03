@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ZARO\\",
+  "WorkspaceRootPath": "C:\\GitHub\\ZARO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ZARO\\.vs\\ZARO\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ZARO\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\github\\zaro\\zaro\\classes\\fbauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\classes\\fbauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|c:\\users\\admin\\source\\repos\\zaro\\zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|C:\\GitHub\\ZARO\\zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EA8D17-D432-40AD-930B-C4B0208CCF6D}|zaro\\zaro.csproj|solutionrelative:zaro\\forms\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DocumentLayout.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ZARO\\.vs\\ZARO\\v17\\DocumentLayout.json",
-              "RelativeDocumentMoniker": ".vs\\ZARO\\v17\\DocumentLayout.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\.vs\\ZARO\\v17\\DocumentLayout.json",
-              "RelativeToolTip": ".vs\\ZARO\\v17\\DocumentLayout.json",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-24T16:52:59.404Z",
+              "Title": "FbAuth.cs",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Classes\\FbAuth.cs",
+              "RelativeDocumentMoniker": "zaro\\Classes\\FbAuth.cs",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Classes\\FbAuth.cs",
+              "RelativeToolTip": "zaro\\Classes\\FbAuth.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:27:35.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "homepage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs",
+              "Title": "homepage.cs",
+              "DocumentMoniker": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs",
               "RelativeDocumentMoniker": "zaro\\Forms\\homepage.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ZARO\\zaro\\Forms\\homepage.cs [Design]",
-              "RelativeToolTip": "zaro\\Forms\\homepage.cs [Design]",
+              "ToolTip": "C:\\GitHub\\ZARO\\zaro\\Forms\\homepage.cs",
+              "RelativeToolTip": "zaro\\Forms\\homepage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:41:49.509Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-02T04:06:01.532Z",
+              "EditorCaption": ""
             }
           ]
         }
