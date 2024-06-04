@@ -192,6 +192,11 @@
     </Compile>
     <Compile Include="Forms\personalpage.Designer.cs">
       <DependentUpon>personalpage.cs</DependentUpon>
+    <Compile Include="Forms\Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Message.Designer.cs">
+      <DependentUpon>Message.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -221,6 +226,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\personalpage.resx">
       <DependentUpon>personalpage.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Message.resx">
+      <DependentUpon>Message.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -258,6 +265,9 @@
     <None Include="images\back-icon.png" />
     <None Include="images\eyes-open-icon.png" />
     <None Include="images\eyes-close-icon.png" />
+    <None Include="images\search.png" />
+    <None Include="avatars\avatar01.jpg" />
+    <None Include="images\send-button.png" />
     <Content Include="images\ZARO-logo.png" />
   </ItemGroup>
   <ItemGroup />
