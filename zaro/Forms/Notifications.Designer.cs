@@ -380,7 +380,6 @@
             // 
             // guna2CirclePictureBox4
             // 
-            this.guna2CirclePictureBox4.Image = global::zaro.Properties.Resources.avatar0110;
             this.guna2CirclePictureBox4.ImageRotate = 0F;
             this.guna2CirclePictureBox4.Location = new System.Drawing.Point(4, 6);
             this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
@@ -392,7 +391,6 @@
             // 
             // guna2CirclePictureBox5
             // 
-            this.guna2CirclePictureBox5.Image = global::zaro.Properties.Resources.avatar0110;
             this.guna2CirclePictureBox5.ImageRotate = 0F;
             this.guna2CirclePictureBox5.Location = new System.Drawing.Point(4, 6);
             this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
@@ -404,7 +402,6 @@
             // 
             // guna2CirclePictureBox6
             // 
-            this.guna2CirclePictureBox6.Image = global::zaro.Properties.Resources.avatar0110;
             this.guna2CirclePictureBox6.ImageRotate = 0F;
             this.guna2CirclePictureBox6.Location = new System.Drawing.Point(4, 6);
             this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
@@ -416,7 +413,6 @@
             // 
             // guna2CirclePictureBox3
             // 
-            this.guna2CirclePictureBox3.Image = global::zaro.Properties.Resources.avatar0110;
             this.guna2CirclePictureBox3.ImageRotate = 0F;
             this.guna2CirclePictureBox3.Location = new System.Drawing.Point(4, 6);
             this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
@@ -428,7 +424,6 @@
             // 
             // guna2CirclePictureBox1
             // 
-            this.guna2CirclePictureBox1.Image = global::zaro.Properties.Resources.avatar0110;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(4, 6);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
@@ -440,7 +435,6 @@
             // 
             // guna2CirclePictureBox2
             // 
-            this.guna2CirclePictureBox2.Image = global::zaro.Properties.Resources.avatar0110;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
             this.guna2CirclePictureBox2.Location = new System.Drawing.Point(4, 6);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";

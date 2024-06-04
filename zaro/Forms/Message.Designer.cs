@@ -192,34 +192,6 @@
             this.label65 = new System.Windows.Forms.Label();
             this.guna2PictureBox20 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel47 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel48 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Panel49 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox23 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox21 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel50 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label69 = new System.Windows.Forms.Label();
-            this.guna2Panel51 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label70 = new System.Windows.Forms.Label();
-            this.guna2Panel52 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox24 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox22 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel53 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox25 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox23 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel54 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.guna2PictureBox24 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel55 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
@@ -288,18 +260,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).BeginInit();
-            this.guna2Panel48.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).BeginInit();
-            this.guna2Panel49.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).BeginInit();
-            this.guna2Panel51.SuspendLayout();
-            this.guna2Panel52.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -780,6 +740,7 @@
             // 
             this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton3.Image")));
             this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton3.ImageRotate = 0F;
             this.guna2ImageButton3.ImageSize = new System.Drawing.Size(24, 24);
@@ -793,6 +754,7 @@
             // 
             this.guna2ImageButton2.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton2.Image")));
             this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton2.ImageRotate = 0F;
             this.guna2ImageButton2.ImageSize = new System.Drawing.Size(27, 27);
@@ -1950,285 +1912,11 @@
             this.guna2Panel47.Size = new System.Drawing.Size(206, 52);
             this.guna2Panel47.TabIndex = 4;
             // 
-            // guna2Panel48
-            // 
-            this.guna2Panel48.Controls.Add(this.guna2CirclePictureBox22);
-            this.guna2Panel48.Controls.Add(this.guna2Panel49);
-            this.guna2Panel48.Controls.Add(this.label69);
-            this.guna2Panel48.Controls.Add(this.guna2Panel51);
-            this.guna2Panel48.Controls.Add(this.label76);
-            this.guna2Panel48.Controls.Add(this.label77);
-            this.guna2Panel48.Controls.Add(this.guna2PictureBox24);
-            this.guna2Panel48.Controls.Add(this.guna2Panel55);
-            this.guna2Panel48.Location = new System.Drawing.Point(0, 336);
-            this.guna2Panel48.Name = "guna2Panel48";
-            this.guna2Panel48.Size = new System.Drawing.Size(206, 48);
-            this.guna2Panel48.TabIndex = 17;
-            // 
-            // guna2CirclePictureBox22
-            // 
-            this.guna2CirclePictureBox22.ImageRotate = 0F;
-            this.guna2CirclePictureBox22.Location = new System.Drawing.Point(7, 5);
-            this.guna2CirclePictureBox22.Name = "guna2CirclePictureBox22";
-            this.guna2CirclePictureBox22.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox22.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox22.TabIndex = 5;
-            this.guna2CirclePictureBox22.TabStop = false;
-            // 
-            // guna2Panel49
-            // 
-            this.guna2Panel49.Controls.Add(this.label66);
-            this.guna2Panel49.Controls.Add(this.label67);
-            this.guna2Panel49.Controls.Add(this.label68);
-            this.guna2Panel49.Controls.Add(this.guna2CirclePictureBox23);
-            this.guna2Panel49.Controls.Add(this.guna2PictureBox21);
-            this.guna2Panel49.Controls.Add(this.guna2Panel50);
-            this.guna2Panel49.Location = new System.Drawing.Point(0, 48);
-            this.guna2Panel49.Name = "guna2Panel49";
-            this.guna2Panel49.Size = new System.Drawing.Size(206, 48);
-            this.guna2Panel49.TabIndex = 11;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(169, 30);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(34, 13);
-            this.label66.TabIndex = 9;
-            this.label66.Text = "18:50";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(53, 28);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(60, 15);
-            this.label67.TabIndex = 8;
-            this.label67.Text = "Chào bạn";
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(53, 8);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(93, 15);
-            this.label68.TabIndex = 7;
-            this.label68.Text = "Đào Duy Khiêm";
-            // 
-            // guna2CirclePictureBox23
-            // 
-            this.guna2CirclePictureBox23.ImageRotate = 0F;
-            this.guna2CirclePictureBox23.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox23.Name = "guna2CirclePictureBox23";
-            this.guna2CirclePictureBox23.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox23.TabIndex = 10;
-            this.guna2CirclePictureBox23.TabStop = false;
-            // 
-            // guna2PictureBox21
-            // 
-            this.guna2PictureBox21.ImageRotate = 0F;
-            this.guna2PictureBox21.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox21.Name = "guna2PictureBox21";
-            this.guna2PictureBox21.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox21.TabIndex = 5;
-            this.guna2PictureBox21.TabStop = false;
-            // 
-            // guna2Panel50
-            // 
-            this.guna2Panel50.Location = new System.Drawing.Point(0, 51);
-            this.guna2Panel50.Name = "guna2Panel50";
-            this.guna2Panel50.Size = new System.Drawing.Size(206, 52);
-            this.guna2Panel50.TabIndex = 4;
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(169, 30);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(34, 13);
-            this.label69.TabIndex = 9;
-            this.label69.Text = "18:50";
-            // 
-            // guna2Panel51
-            // 
-            this.guna2Panel51.Controls.Add(this.label70);
-            this.guna2Panel51.Controls.Add(this.guna2Panel52);
-            this.guna2Panel51.Controls.Add(this.label74);
-            this.guna2Panel51.Controls.Add(this.label75);
-            this.guna2Panel51.Controls.Add(this.guna2CirclePictureBox25);
-            this.guna2Panel51.Controls.Add(this.guna2PictureBox23);
-            this.guna2Panel51.Controls.Add(this.guna2Panel54);
-            this.guna2Panel51.Location = new System.Drawing.Point(0, 48);
-            this.guna2Panel51.Name = "guna2Panel51";
-            this.guna2Panel51.Size = new System.Drawing.Size(206, 48);
-            this.guna2Panel51.TabIndex = 10;
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(169, 30);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(34, 13);
-            this.label70.TabIndex = 9;
-            this.label70.Text = "18:50";
-            // 
-            // guna2Panel52
-            // 
-            this.guna2Panel52.Controls.Add(this.label71);
-            this.guna2Panel52.Controls.Add(this.label72);
-            this.guna2Panel52.Controls.Add(this.label73);
-            this.guna2Panel52.Controls.Add(this.guna2CirclePictureBox24);
-            this.guna2Panel52.Controls.Add(this.guna2PictureBox22);
-            this.guna2Panel52.Controls.Add(this.guna2Panel53);
-            this.guna2Panel52.Location = new System.Drawing.Point(0, 49);
-            this.guna2Panel52.Name = "guna2Panel52";
-            this.guna2Panel52.Size = new System.Drawing.Size(206, 48);
-            this.guna2Panel52.TabIndex = 10;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(169, 30);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(34, 13);
-            this.label71.TabIndex = 9;
-            this.label71.Text = "18:50";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(53, 28);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(60, 15);
-            this.label72.TabIndex = 8;
-            this.label72.Text = "Chào bạn";
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(53, 8);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(93, 15);
-            this.label73.TabIndex = 7;
-            this.label73.Text = "Đào Duy Khiêm";
-            // 
-            // guna2CirclePictureBox24
-            // 
-            this.guna2CirclePictureBox24.ImageRotate = 0F;
-            this.guna2CirclePictureBox24.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox24.Name = "guna2CirclePictureBox24";
-            this.guna2CirclePictureBox24.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox24.TabIndex = 10;
-            this.guna2CirclePictureBox24.TabStop = false;
-            // 
-            // guna2PictureBox22
-            // 
-            this.guna2PictureBox22.ImageRotate = 0F;
-            this.guna2PictureBox22.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox22.Name = "guna2PictureBox22";
-            this.guna2PictureBox22.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox22.TabIndex = 5;
-            this.guna2PictureBox22.TabStop = false;
-            // 
-            // guna2Panel53
-            // 
-            this.guna2Panel53.Location = new System.Drawing.Point(0, 51);
-            this.guna2Panel53.Name = "guna2Panel53";
-            this.guna2Panel53.Size = new System.Drawing.Size(206, 52);
-            this.guna2Panel53.TabIndex = 4;
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(53, 28);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(60, 15);
-            this.label74.TabIndex = 8;
-            this.label74.Text = "Chào bạn";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(53, 8);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(93, 15);
-            this.label75.TabIndex = 7;
-            this.label75.Text = "Đào Duy Khiêm";
-            // 
-            // guna2CirclePictureBox25
-            // 
-            this.guna2CirclePictureBox25.ImageRotate = 0F;
-            this.guna2CirclePictureBox25.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox25.Name = "guna2CirclePictureBox25";
-            this.guna2CirclePictureBox25.Size = new System.Drawing.Size(64, 64);
-            this.guna2CirclePictureBox25.TabIndex = 11;
-            this.guna2CirclePictureBox25.TabStop = false;
-            // 
-            // guna2PictureBox23
-            // 
-            this.guna2PictureBox23.ImageRotate = 0F;
-            this.guna2PictureBox23.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox23.Name = "guna2PictureBox23";
-            this.guna2PictureBox23.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox23.TabIndex = 5;
-            this.guna2PictureBox23.TabStop = false;
-            // 
-            // guna2Panel54
-            // 
-            this.guna2Panel54.Location = new System.Drawing.Point(0, 51);
-            this.guna2Panel54.Name = "guna2Panel54";
-            this.guna2Panel54.Size = new System.Drawing.Size(206, 52);
-            this.guna2Panel54.TabIndex = 4;
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(53, 28);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(60, 15);
-            this.label76.TabIndex = 8;
-            this.label76.Text = "Chào bạn";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(53, 8);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(93, 15);
-            this.label77.TabIndex = 7;
-            this.label77.Text = "Đào Duy Khiêm";
-            // 
-            // guna2PictureBox24
-            // 
-            this.guna2PictureBox24.ImageRotate = 0F;
-            this.guna2PictureBox24.Location = new System.Drawing.Point(7, -158);
-            this.guna2PictureBox24.Name = "guna2PictureBox24";
-            this.guna2PictureBox24.Size = new System.Drawing.Size(30, 30);
-            this.guna2PictureBox24.TabIndex = 5;
-            this.guna2PictureBox24.TabStop = false;
-            // 
-            // guna2Panel55
-            // 
-            this.guna2Panel55.Location = new System.Drawing.Point(0, 51);
-            this.guna2Panel55.Name = "guna2Panel55";
-            this.guna2Panel55.Size = new System.Drawing.Size(206, 52);
-            this.guna2Panel55.TabIndex = 4;
-            // 
             // ZaroMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 388);
-            this.Controls.Add(this.guna2Panel48);
             this.Controls.Add(this.guna2Panel40);
             this.Controls.Add(this.guna2Panel32);
             this.Controls.Add(this.guna2Panel24);
@@ -2334,22 +2022,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).EndInit();
-            this.guna2Panel48.ResumeLayout(false);
-            this.guna2Panel48.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).EndInit();
-            this.guna2Panel49.ResumeLayout(false);
-            this.guna2Panel49.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).EndInit();
-            this.guna2Panel51.ResumeLayout(false);
-            this.guna2Panel51.PerformLayout();
-            this.guna2Panel52.ResumeLayout(false);
-            this.guna2Panel52.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2514,34 +2186,6 @@
         private System.Windows.Forms.Label label65;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox20;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel47;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel48;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox22;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel49;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox23;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox21;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel50;
-        private System.Windows.Forms.Label label69;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel51;
-        private System.Windows.Forms.Label label70;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel52;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.Label label73;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox24;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox22;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel53;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.Label label75;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox25;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox23;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel54;
-        private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.Label label77;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox24;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel55;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox26;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
