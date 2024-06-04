@@ -30,7 +30,6 @@ namespace zaro
         private void splash_screen_Load(object sender, EventArgs e)
         {
             timer1.Start();
-            authClient.SignOut();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
