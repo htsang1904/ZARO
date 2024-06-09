@@ -162,7 +162,19 @@
     <Compile Include="Classes\FbAuth.cs" />
     <Compile Include="Classes\FbClient.cs" />
     <Compile Include="Classes\registerInfo.cs" />
+    <Compile Include="Control\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Firebase\Database\FirebaseConfig.cs" />
+    <Compile Include="Forms\controlPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\controlPanel.Designer.cs">
+      <DependentUpon>controlPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\friend connection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,6 +231,12 @@
     <Compile Include="Forms\splash_screen.Designer.cs">
       <DependentUpon>splash_screen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Control\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\controlPanel.resx">
+      <DependentUpon>controlPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\friend connection.resx">
       <DependentUpon>friend connection.cs</DependentUpon>
     </EmbeddedResource>

@@ -81,3 +81,5 @@ C:\GitHub\ZARO\zaro\bin\Debug\System.ValueTuple.xml
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.csproj.Up2Date
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.exe
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.pdb
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.Forms.controlPanel.resources
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.Control.Home.resources

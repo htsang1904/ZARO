@@ -43,8 +43,8 @@ namespace zaro
                 {
                     var user = authClient.User;
                     MessageBox.Show($"Chào mừng trở lại, {user.Info.Email}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    homepage homepage = new homepage();
-                    homepage.Show();
+                    controlPanel controlPanel = new controlPanel();
+                    controlPanel.Show();
                 }
                 else 
                 {
