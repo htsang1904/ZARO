@@ -72,5 +72,15 @@ namespace zaro.Forms
             login.ShowDialog();
             Close();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            guna2Button1.Checked = false;
+            guna2Button2.Checked = false;
+            guna2Button3.Checked = false;
+            guna2Button4.Checked = false;
+            Personal uc = new Personal();
+            addUserControl(uc);
+        }
     }
 }

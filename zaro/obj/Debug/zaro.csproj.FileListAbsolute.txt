@@ -84,3 +84,4 @@ C:\GitHub\ZARO\zaro\obj\Debug\zaro.pdb
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.Forms.controlPanel.resources
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.Control.Home.resources
 C:\GitHub\ZARO\zaro\obj\Debug\zaro.Control.FriendConnection.resources
+C:\GitHub\ZARO\zaro\obj\Debug\zaro.Control.Personal.resources
