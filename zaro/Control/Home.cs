@@ -16,5 +16,10 @@ namespace zaro.Control
         {
             InitializeComponent();
         }
+
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

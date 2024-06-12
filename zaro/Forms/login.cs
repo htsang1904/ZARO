@@ -74,6 +74,10 @@ namespace zaro
                 var displayName = user.Info.DisplayName;
                 var uid = user.Uid;
                 showMessage($"Đăng nhập thành công!", "Thông báo", "Information", "Light");
+                Hide();
+                controlPanel controlPanel = new controlPanel();
+                controlPanel.Show();
+                Close();
             }
             catch (FirebaseAuthHttpException ex)
             {
