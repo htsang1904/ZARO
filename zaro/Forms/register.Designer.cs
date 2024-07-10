@@ -40,6 +40,7 @@
             this.txtRegMail = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.txtRegDisplayName = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
@@ -51,10 +52,10 @@
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Controls.Add(this.guna2Panel3);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel2.Location = new System.Drawing.Point(354, 0);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel2.Location = new System.Drawing.Point(472, 0);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(284, 386);
+            this.guna2Panel2.Size = new System.Drawing.Size(379, 475);
             this.guna2Panel2.TabIndex = 2;
             // 
             // guna2ImageButton1
@@ -66,11 +67,11 @@
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(28, 26);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(243, 10);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(324, 12);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(30, 28);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(31, 28);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(41, 34);
             this.guna2ImageButton1.TabIndex = 37;
             this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
@@ -86,10 +87,10 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(151)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(75, 327);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button1.Location = new System.Drawing.Point(100, 402);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(135, 37);
+            this.guna2Button1.Size = new System.Drawing.Size(180, 46);
             this.guna2Button1.TabIndex = 25;
             this.guna2Button1.Text = "Đăng ký";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -98,24 +99,24 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(111, 52);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(148, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 18);
+            this.label1.Size = new System.Drawing.Size(76, 22);
             this.label1.TabIndex = 18;
             this.label1.Text = "Đăng ký";
             // 
             // guna2Panel3
             // 
+            this.guna2Panel3.Controls.Add(this.txtRegDisplayName);
             this.guna2Panel3.Controls.Add(this.showPassBtn1);
             this.guna2Panel3.Controls.Add(this.showPassBtn);
             this.guna2Panel3.Controls.Add(this.txtRegPassConfirm);
             this.guna2Panel3.Controls.Add(this.txtRegPass);
             this.guna2Panel3.Controls.Add(this.txtRegMail);
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 80);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 73);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(281, 236);
+            this.guna2Panel3.Size = new System.Drawing.Size(375, 315);
             this.guna2Panel3.TabIndex = 17;
             // 
             // showPassBtn1
@@ -135,11 +136,11 @@
             this.showPassBtn1.ForeColor = System.Drawing.Color.White;
             this.showPassBtn1.Image = global::zaro.Properties.Resources.eyes_close_icon;
             this.showPassBtn1.ImageSize = new System.Drawing.Size(16, 16);
-            this.showPassBtn1.Location = new System.Drawing.Point(225, 173);
-            this.showPassBtn1.Margin = new System.Windows.Forms.Padding(2);
+            this.showPassBtn1.Location = new System.Drawing.Point(301, 260);
+            this.showPassBtn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.showPassBtn1.Name = "showPassBtn1";
-            this.showPassBtn1.Padding = new System.Windows.Forms.Padding(3);
-            this.showPassBtn1.Size = new System.Drawing.Size(28, 28);
+            this.showPassBtn1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showPassBtn1.Size = new System.Drawing.Size(37, 34);
             this.showPassBtn1.TabIndex = 39;
             this.showPassBtn1.Click += new System.EventHandler(this.showPassBtn1_Click);
             // 
@@ -160,11 +161,11 @@
             this.showPassBtn.ForeColor = System.Drawing.Color.White;
             this.showPassBtn.Image = global::zaro.Properties.Resources.eyes_close_icon;
             this.showPassBtn.ImageSize = new System.Drawing.Size(16, 16);
-            this.showPassBtn.Location = new System.Drawing.Point(225, 99);
-            this.showPassBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.showPassBtn.Location = new System.Drawing.Point(302, 184);
+            this.showPassBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.showPassBtn.Name = "showPassBtn";
-            this.showPassBtn.Padding = new System.Windows.Forms.Padding(3);
-            this.showPassBtn.Size = new System.Drawing.Size(28, 28);
+            this.showPassBtn.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showPassBtn.Size = new System.Drawing.Size(37, 34);
             this.showPassBtn.TabIndex = 39;
             this.showPassBtn.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
@@ -183,14 +184,14 @@
             this.txtRegPassConfirm.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRegPassConfirm.ForeColor = System.Drawing.Color.Black;
             this.txtRegPassConfirm.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRegPassConfirm.Location = new System.Drawing.Point(21, 167);
-            this.txtRegPassConfirm.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtRegPassConfirm.Location = new System.Drawing.Point(28, 251);
+            this.txtRegPassConfirm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRegPassConfirm.Name = "txtRegPassConfirm";
             this.txtRegPassConfirm.PasswordChar = '*';
             this.txtRegPassConfirm.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.txtRegPassConfirm.PlaceholderText = "Xác nhận lại mật khẩu";
             this.txtRegPassConfirm.SelectedText = "";
-            this.txtRegPassConfirm.Size = new System.Drawing.Size(239, 39);
+            this.txtRegPassConfirm.Size = new System.Drawing.Size(319, 48);
             this.txtRegPassConfirm.TabIndex = 3;
             // 
             // txtRegPass
@@ -208,14 +209,14 @@
             this.txtRegPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRegPass.ForeColor = System.Drawing.Color.Black;
             this.txtRegPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRegPass.Location = new System.Drawing.Point(21, 92);
-            this.txtRegPass.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtRegPass.Location = new System.Drawing.Point(28, 176);
+            this.txtRegPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRegPass.Name = "txtRegPass";
             this.txtRegPass.PasswordChar = '*';
             this.txtRegPass.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.txtRegPass.PlaceholderText = "Mật khẩu";
             this.txtRegPass.SelectedText = "";
-            this.txtRegPass.Size = new System.Drawing.Size(239, 39);
+            this.txtRegPass.Size = new System.Drawing.Size(319, 48);
             this.txtRegPass.TabIndex = 2;
             // 
             // txtRegMail
@@ -233,14 +234,14 @@
             this.txtRegMail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRegMail.ForeColor = System.Drawing.Color.Black;
             this.txtRegMail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRegMail.Location = new System.Drawing.Point(21, 23);
-            this.txtRegMail.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtRegMail.Location = new System.Drawing.Point(28, 97);
+            this.txtRegMail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRegMail.Name = "txtRegMail";
             this.txtRegMail.PasswordChar = '\0';
             this.txtRegMail.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.txtRegMail.PlaceholderText = "Email";
             this.txtRegMail.SelectedText = "";
-            this.txtRegMail.Size = new System.Drawing.Size(239, 39);
+            this.txtRegMail.Size = new System.Drawing.Size(319, 48);
             this.txtRegMail.TabIndex = 1;
             // 
             // guna2Panel1
@@ -249,9 +250,9 @@
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(356, 386);
+            this.guna2Panel1.Size = new System.Drawing.Size(475, 475);
             this.guna2Panel1.TabIndex = 1;
             // 
             // guna2MessageDialog1
@@ -263,16 +264,41 @@
             this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark;
             this.guna2MessageDialog1.Text = null;
             // 
+            // txtRegDisplayName
+            // 
+            this.txtRegDisplayName.BorderRadius = 6;
+            this.txtRegDisplayName.BorderThickness = 0;
+            this.txtRegDisplayName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtRegDisplayName.DefaultText = "";
+            this.txtRegDisplayName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtRegDisplayName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtRegDisplayName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtRegDisplayName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtRegDisplayName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(241)))), ((int)(((byte)(234)))));
+            this.txtRegDisplayName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtRegDisplayName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtRegDisplayName.ForeColor = System.Drawing.Color.Black;
+            this.txtRegDisplayName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtRegDisplayName.Location = new System.Drawing.Point(28, 23);
+            this.txtRegDisplayName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtRegDisplayName.Name = "txtRegDisplayName";
+            this.txtRegDisplayName.PasswordChar = '\0';
+            this.txtRegDisplayName.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtRegDisplayName.PlaceholderText = "Tên";
+            this.txtRegDisplayName.SelectedText = "";
+            this.txtRegDisplayName.Size = new System.Drawing.Size(319, 48);
+            this.txtRegDisplayName.TabIndex = 41;
+            // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(638, 386);
+            this.ClientSize = new System.Drawing.Size(851, 475);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "register";
@@ -297,5 +323,6 @@
         private Guna.UI2.WinForms.Guna2Button showPassBtn1;
         private Guna.UI2.WinForms.Guna2Button showPassBtn;
         private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
+        private Guna.UI2.WinForms.Guna2TextBox txtRegDisplayName;
     }
 }

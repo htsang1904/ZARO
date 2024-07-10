@@ -22,6 +22,8 @@ namespace zaro.Forms
             Home uc = new Home();
             addUserControl( uc );
             authClient = FbAuth.authClient;
+            var user = authClient.User;
+            personalBtn.Text = user.Info.DisplayName;
         }
 
         private void addUserControl(UserControl userControl)
@@ -61,7 +63,7 @@ namespace zaro.Forms
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            guna2ContextMenuStrip1.Show(guna2Button5, new Point(0, guna2Button1.Height));
+            guna2ContextMenuStrip1.Show(personalBtn, new Point(0, guna2Button1.Height));
         }
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)

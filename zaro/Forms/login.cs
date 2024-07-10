@@ -44,7 +44,7 @@ namespace zaro
         {
             Hide();
             Register register = new Register();
-            register.Show();
+            register.ShowDialog();
             Close();
         }
 

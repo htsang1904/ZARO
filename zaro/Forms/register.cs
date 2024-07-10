@@ -64,12 +64,12 @@ namespace zaro
             }
             if (!IsValidPassword()) return;
 
-            if(await IsUserExist(txtRegMail.Text.Trim()))
-            {
-                showMessage("Tài khoản đã được đăng ký", "Thông báo", "Error", "Light");
-                return;
-            }
-            RegisterUser(txtRegMail.Text, txtRegPass.Text);
+            //if(await IsUserExist(txtRegMail.Text.Trim()))
+            //{
+            //    showMessage("Tài khoản đã được đăng ký", "Thông báo", "Error", "Light");
+            //    return;
+            //}
+            RegisterUser(txtRegMail.Text.Trim(), txtRegPass.Text.Trim(), txtRegDisplayName.Text.Trim());
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -154,11 +154,11 @@ namespace zaro
                 return false;
             }
         }
-        private async void RegisterUser(string email, string password)
+        private async void RegisterUser(string email, string password, string displayName)
         {
             try
             {
-                var userCredential = await authClient.CreateUserWithEmailAndPasswordAsync(email, password);
+                var userCredential = await authClient.CreateUserWithEmailAndPasswordAsync(email,password, displayName);
                 showMessage("Chúc mừng bạn đã đăng ký thành công!", "Thông báo", "None", "Light");
                 resetData();
             }
@@ -184,6 +184,7 @@ namespace zaro
             txtRegMail.Clear();
             txtRegPass.Clear();
             txtRegPassConfirm.Clear();
+            txtRegDisplayName.Clear();
         }
     }
 }

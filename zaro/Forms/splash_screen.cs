@@ -42,7 +42,7 @@ namespace zaro
                 if (authClient.User != null)
                 {
                     var user = authClient.User;
-                    MessageBox.Show($"Chào mừng trở lại, {user.Info.Email}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"Chào mừng trở lại, {user.Info.DisplayName}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     controlPanel controlPanel = new controlPanel();
                     controlPanel.Show();
                 }
